@@ -1,0 +1,15 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# ------------------------------------
+#              GLOBAL
+# ------------------------------------
+
+# IDEs and editors
+.idea
+.vscode
+.project
+.classpath
+*.launch
+
+# Not check in node_modules to a specific arch and os.
+book/node_modules/
