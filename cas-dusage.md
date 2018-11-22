@@ -31,8 +31,9 @@ L'application doit permettre de définir des préférences pour l'utilisateur :
 * La langue utilisée.
 * Des modes d'affichage pour les collections (liste, grille, etc).
 * Retour à la dernière page visitée lors de la prochaine reconnexion (désactivée par défaut).
+* Éventuellement, un thème graphique pour l'application.
 
-A noter : certaines préférences peuvent être prépositionnées dans la configuration globale de l'application (soit graphiquement, par un utilisateur spécial, soit en dur dans des fichiers de configuration).
+A noter : certaines préférences peuvent être prépositionnées dans la configuration globale de Cockpit (soit graphiquement, par un utilisateur spécial, soit en dur dans des fichiers de configuration).
 
 **Intérêt pour les Utilisateurs :**
 
@@ -148,7 +149,7 @@ effective, un message de confirmation de la suppression sera envoyé.
 | Supprimer un espace devenu inutile. | Supprimer un espace devenu inutile. | Supprimer un espace devenu inutile. |
 
 
-## Gestion des bus / topologie
+## Gestion des bus / topologies
 
 Un bus Petals est aussi appelé topologie Petals.  
 Un bus est constitué de conteneurs (aussi appelés nœuds) Petals, et d'un annuaire (*registry*) de services, elle-même constituée de
