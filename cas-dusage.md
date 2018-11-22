@@ -60,12 +60,6 @@ Une notification est envoyée à tous les utilisateurs de l'espace de travail un
 
 Dans le cas où un utilisateur se trouve déjà sur la vue d'un espace de travail éditée, la mise à jour des informations doit s'effectuée en temps réel automatiquement.
 
-**Intérêt pour les Utilisateurs**
-
-| Consultants | Exploitants | Novices |
-| :--- | :--- | :--- |
-| Pas d'intérêt particulier. | Pas d'intérêt particulier. | Pas d'intérêt particulier. |
-
 ## Quitter un espace de travail
 
 L'application doit permettre de quitter un espace de travail lorsque l'utilisateur se trouve à l'intérieur de celui-ci.
