@@ -1,20 +1,20 @@
 # Petals Cockpit
 
-## Qu'est-ce que Petals Cockpit
+[![Spécifications techniques](https://img.shields.io/badge/Sp%C3%A9cifications%20Technique-gitbook.io-blue.svg)](https://petals.gitbook.io/petals-cockpit-specs)
+[![Documentation utilisateur](https://img.shields.io/badge/Documentation%20Utilisateur-doc.petalslink.com-orange.svg)](https://doc.petalslink.com/display/petalscockpitsnapshot/Petals+Cockpit+0.22.0-SNAPSHOT)
 
-Petals Cockpit est une interface Web permettant d'administrer un ensemble de topologies Petals ESB.
+## Qu'est-ce que Petals Cockpit ?
 
-Il s’agit d’une application serveur _standalone Java_ exécutée en tant que _backend_, qui sert via _HTTPS_ une application _frontend_ **Angular 6** qui s’exécutera dans le navigateur.
+Petals Cockpit est une interface Web permettant d'administrer un ensemble de bus Petals (ESB).
 
-Depuis l'interface Web, les utilisateurs peuvent se connecter aux instances en cours des conteneurs Petals, puis administrer et déployer des artefacts sur celles-ci. Le _backend_ utilise une base de données pour contenir toutes les informations persistantes, telles que les utilisateurs et les espaces de travail.
+Depuis l'interface Web, les utilisateurs peuvent se connecter aux conteneurs Petals, puis administrer et déployer des artefacts sur ceux-ci. Petals Cockpit stocke des informations persistantes, telles que les utilisateurs et les espaces de travail.
 
-Pour en savoir plus, allez sur [PetalsLink Doc](https://doc.petalslink.com/display/petalscockpitsnapshot/Petals+Cockpit+0.22.0-SNAPSHOT).
+## Liens
 
-## Documentation
-
-Découvrez le gitbook de [Spécifications Technique](https://petals.gitbook.io/petals-cockpit-specs) pour Petals Cockpit.
+* Spécifications techniques sur [gitbook.io](https://petals.gitbook.io/petals-cockpit-specs).
+* Documentation utilisateur actuelle sur [doc.petalslink.com](https://doc.petalslink.com/display/petalscockpitsnapshot/Petals+Cockpit+0.22.0-SNAPSHOT).
+* Documentation de [Petals ESB](https://doc.petalslink.com)
 
 ## Licence
 
 GNU General Public License v2.0
-

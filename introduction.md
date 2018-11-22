@@ -4,18 +4,19 @@ description: 'Pour partager ce livre, utilisez les icônes en haut à droite du 
 
 # Introduction
 
-## Pour qui est-ce ?
+## Public Visé
 
-### L'Équipe Petals
+Cette documentation s'adresse à l'équipe Petals et a pour but de formaliser les attendus de la
+prochaine version de Petals Cockpit.
 
-En effet, ce gitbook s'adresse à l'équipe Petals et a pour but d'associer tout le monde sur une même documentation.
+## Résultats Attendus
 
-## Ce qui est attendu
+L'objectif est de fournir des spécifications de Petals Cockpit, et d'adresser les points suivants :
 
-Ce gitbook devra fournir une documentation de spécifications sur Cockpit.
-
-* Quels utilisateurs vise-t-on ?
+* Quels sont les utilisateurs-cibles ?
+* Préciser le contexte d'utilisation (PC, tablette, portable...).
 * Donner des scénarios d'utilisation.
-* Faire des croquis des interfaces graphiques.
-* ...
+* Construire le modèle d'interaction de l'interface graphique.
+* Définir une charte graphique.
 
+Des maquettes ont été réalisées en complément, mais hébergées ailleurs.
