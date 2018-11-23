@@ -4,7 +4,7 @@
 * [Introduction](../introduction.md)
 * [Contexte](../contexte/README.md)
   * [Description](../contexte/description.md)
-  * [Utilisateurs Cible](../contexte/utilisateurs-cible.md)
+  * [Profils d'Utilisateurs](../contexte/profils-d-utilisateurs.md)
   * [Conditions d'Utilisation](../contexte/conditions-dutilisation.md)
   * [Besoins](../contexte/besoins.md)
 * [Cas d'Usage](../cas-dusage.md)
@@ -47,5 +47,3 @@
 * [Contraintes Techniques et Implémentation](../contraintes-techniques-et-implementation/README.md)
   * [Contraintes Techniques](../contraintes-techniques-et-implementation/contraintes-techniques.md)
   * [Gestion des Erreurs](../contraintes-techniques-et-implementation/gestion-des-erreurs.md)
-  * [Gestion des Préférences](../contraintes-techniques-et-implementation/gestion-des-preferences.md)
-
