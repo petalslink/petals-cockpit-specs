@@ -24,5 +24,3 @@ L'identification des tâches est nécessaire pour définir une IHM abstraite.
 * [Artefacts d'un nœud Petals](artefacts-dun-noeud-petals/)
 * [Préférences](preferences/)
 
-
-

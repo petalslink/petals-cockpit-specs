@@ -5,5 +5,3 @@ Voici quelques exemples de scénarios et des extraits de maquette pour vous fami
 * [Modifier à chaud les niveaux de log \(conteneur\)](modifier-a-chaud-les-niveaux-de-log-conteneur.md)
 * [Modifier à chaud des paramètres du conteneur](modifier-a-chaud-des-parametres-de-petals.md)
 
-
-

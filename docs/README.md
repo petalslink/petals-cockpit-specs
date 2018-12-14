@@ -4,7 +4,7 @@
 * [Introduction](../introduction.md)
 * [Contexte](../contexte/README.md)
   * [Description](../contexte/description.md)
-  * [Profils d'Utilisateurs](../contexte/profils-d-utilisateurs.md)
+  * [Utilisateurs Cible](../contexte/utilisateurs-cible.md)
   * [Conditions d'Utilisation](../contexte/conditions-dutilisation.md)
   * [Besoins](../contexte/besoins.md)
 * [Cas d'Usage](../cas-dusage.md)
@@ -12,6 +12,8 @@
   * [Concepts](../taches/concepts.md)
   * [Espace de Travail](../taches/espace-de-travail/README.md)
     * [Se connecter](../taches/espace-de-travail/se-connecter.md)
+    * [Visualiser un espace de travail](../taches/espace-de-travail/visualiser-un-espace-de-travail.md)
+    * [Sélectionner un espace de travail](../taches/espace-de-travail/selectionner-un-espace-de-travail.md)
     * [Définir un espace de travail](../taches/espace-de-travail/definir-un-espace-de-travail.md)
     * [Charger un espace de travail](../taches/espace-de-travail/charger-un-espace-de-travail.md)
     * [Éditer un espace de travail](../taches/espace-de-travail/editer-un-espace-de-travail.md)
@@ -47,3 +49,5 @@
 * [Contraintes Techniques et Implémentation](../contraintes-techniques-et-implementation/README.md)
   * [Contraintes Techniques](../contraintes-techniques-et-implementation/contraintes-techniques.md)
   * [Gestion des Erreurs](../contraintes-techniques-et-implementation/gestion-des-erreurs.md)
+  * [Gestion des Préférences](../contraintes-techniques-et-implementation/gestion-des-preferences.md)
+
