@@ -4,7 +4,7 @@ Voici une liste haut-niveau des besoins à couvrir par cette application.
 Ils sont déclinés en cas d'usage dans la section suivante.
 
 * S'authentifier
-* Définir un nouvel espace de travail
+* Créer un nouvel espace de travail
 * Charger un espace de travail
 * Éditer un espace de travail
 * Quitter un espace de travail

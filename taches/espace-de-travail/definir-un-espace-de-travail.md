@@ -1,4 +1,4 @@
-# Définir un espace de travail
+# Créer un espace de travail
 
 {% hint style="info" %}
 La notation suivante est prise :
@@ -17,9 +17,19 @@ Beber n'a pas encore d'accès à un espace de travail donc Beber est redirigé s
 
 ![Vue cr&#xE9;ation d&apos;espace de travail vide](../../.gitbook/assets/workspace-create-empty.png)
 
-Tous les champs sont vides par défaut. Beber ajoute un nom obligatoire pour son espace de travail et une description optionnelle.
+{% hint style="info" %}
+Les boutons _Import workspace from files_ et _Import workspace from cloud_ correspondent à des fonctionnalités inexistantes à l'heure actuelle et ne serons donc pas présents dans la vue.
+{% endhint %}
+
+Tous les champs sont vides par défaut. La case _redirection_ est cochée par défaut, elle peut être décochée. Beber renseigne pour son espace de travail :
+
+* Un _nom,_ obligatoire 
+* Une _description,_ optionnelle
 
 ![Vue cr&#xE9;ation d&apos;espace de travail remplie](../../.gitbook/assets/workspace-create.png)
 
-Le bouton s'active et Beber crée son espace de travail. Si la case est cochée, il est redirigé sur l'espace de travail sinon il est redirigé vers la [liste](selectionner-un-espace-de-travail.md).
+Le bouton _create_ s'active et Beber clique dessus crée son espace de travail. 
+
+* Si la case _redirection_ **est** cochée, il est redirigé sur l'espace de travail créé.
+* Si la case _redirection_ **n'est pas** cochée, il est redirigé vers la [liste des espaces](selectionner-un-espace-de-travail.md).
 

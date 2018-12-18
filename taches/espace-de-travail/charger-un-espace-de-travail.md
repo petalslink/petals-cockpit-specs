@@ -13,7 +13,7 @@ Postconditions : -
 Contraintes : -  
 Complexité : -
 
-Beber a accès à un ou plusieurs espace de travail donc il arrive sur la vue où se trouve la liste des espaces de travail.  
+Beber a accès à un ou plusieurs espaces de travail donc il arrive sur la vue où se trouve la liste des espaces de travail.  
 
 ![Vue liste des espaces de travail](../../.gitbook/assets/workspace-select.png)
 

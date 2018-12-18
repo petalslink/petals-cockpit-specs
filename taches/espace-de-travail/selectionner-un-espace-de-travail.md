@@ -1,4 +1,4 @@
-# Sélectionner un espace de travail
+# Charger un espace de travail depuis un autre espace
 
 {% hint style="info" %}
 La notation suivante est prise :

@@ -13,7 +13,7 @@ Un identifiant et mot de passe sont prérequis pour accéder aux fonctionnalité
 | :--- | :--- | :--- |
 | Offrir un environnement de travail personnel et sécurisé | Offrir un environnement de travail personnel et sécurisé | Offrir un environnement de travail personnel et sécurisé |
 
-## Définir un nouvel espace de travail
+## Créer un nouvel espace de travail
 
 L'application doit permettre de définir un nouvel espace de travail.  
 Cette entité permet principalement de gérer un ou plusieurs **bus Petals**.
