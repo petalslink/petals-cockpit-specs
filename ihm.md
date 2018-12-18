@@ -15,10 +15,9 @@ En cas de conflit entre la charte graphique préconisée et celle ci-dessous, c'
 
     Elle permet de :
 
-    * fermer et ouvrir la volet de navigation
-    * consulter la liste des espaces de travail
     * visualiser une topologie
     * visualiser la liste des services
+    * visualiser les consoles
     * gérer les utilisateurs de cockpit \(espace réservé à l'administrateur\)
     * gérer ses préférences
     * se déconnecter
