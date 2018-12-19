@@ -4,16 +4,25 @@
 La notation suivante est prise :
 {% endhint %}
 
-* \[ tâche \] fait référence à une autre tâche.
-* Action \(sans crochets\) fait référence à une action utilisateur.
-
 Concepts associés : un **Espace de Travail**.  
-Préconditions : [\[ Définir un Espace de Travail \]](definir-un-espace-de-travail.md)  
-Postconditions : -  
+Préconditions : [\[ Se Connecter \]](se-connecter.md)  
+Postconditions : [\[ Visualiser un Espace de Travail \]](visualiser-un-espace-de-travail.md)  
 Contraintes : -  
 Complexité : -
 
-Beber a accès à un ou plusieurs espaces de travail donc il arrive sur la vue _liste des espaces de travail_.  
+## Scénarios
+
+{% hint style="info" %}
+Dans un scénario, on ne mentionne pas les actions techniques (pas de clic, de tooltip, etc).
+{% endhint %}
+
+Scénario normal : Albert veut sélectionner un espace de travail pour travailler. Plusieurs sont listés. Il sélectionne celui qui s'appelle **pre-prod** et valide son choix.
+
+Scénario alternatif 1 : Albert veut sélectionner un espace de travail pour travailler. Aucun n'est listé. Il peut donc soit [créer un nouvel espace de travail](definir-un-espace-de-travail.md), soit [se déconnecter](se-deconnecter.md).
+
+Scénario alternatif 2 : Albert veut sélectionner un espace de travail pour travailler. Plusieurs sont listés. Il sélectionne celui qui s'appelle **pre-prod** mais ne peut valider son choix. En effet, il n'a pas les droits suffisants. Il peut toutefois récupérer le nom de l'administrateur de cet espace pour prendre contact avec lui.
+
+## Maquette illustrative
 
 ![Liste des espaces de travail](../../.gitbook/assets/bertrand-workspace-select-1.png)
 
@@ -23,9 +32,9 @@ La phrase d'accroche de l'exemple sera changée en :
 your SOA integration backbone."
 {% endhint %}
 
-Passer la souris sur l'icone _utilisateurs_ à droite de chaque espace affiche en "tooltip" la liste des utilisateurs qui ont accès au workspace, les administrateurs y sont clairement visibles \(à préciser: couleur différente, tête de liste, icone, section différente, etc ...\)
+## Informations complémentaires pour implémentation
 
-Passer la souris sur la description d'un espace affiche en "tooltip" l'intégralité de la description de l'espace.
-
-Beber clique sur un espace de travail dans la liste et il est redirigé vers son [espace de travail](visualiser-un-espace-de-travail.md).
-
+* La sélection d'un espace de travail se fait par simple clic sur la zone qui lui est dédiée dans la liste.
+* Survoler une telle zone permet d'afficher un *tooltip* avec la description intégrale de l'espace, le nom de son ou ses administrateurs, ainsi que le nombre de personnes y ayant accès.
+* La liste des espaces est triée. Ceux auxquels l'utilisateur a accès sont listés en premier. Les autres viennent après.
+* Une icône (ou un fond de couleur différente) marque différemment les espaces auxquels l'utilisateur n'a pas accès.
