@@ -23,5 +23,9 @@ La phrase d'accroche de l'exemple sera changée en :
 your SOA integration backbone."
 {% endhint %}
 
+Passer la souris sur l'icone _utilisateurs_ à droite de chaque espace affiche en "tooltip" la liste des utilisateurs qui ont accès au workspace, les administrateurs y sont clairement visibles \(à préciser: couleur différente, tête de liste, icone, section différente, etc ...\)
+
+Passer la souris sur la description d'un espace affiche en "tooltip" l'intégralité de la description de l'espace.
+
 Beber clique sur un espace de travail dans la liste et il est redirigé vers son [espace de travail](visualiser-un-espace-de-travail.md).
 
