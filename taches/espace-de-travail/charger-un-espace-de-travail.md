@@ -13,9 +13,15 @@ Postconditions : -
 Contraintes : -  
 Complexité : -
 
-Beber a accès à un ou plusieurs espaces de travail donc il arrive sur la vue où se trouve la liste des espaces de travail.  
+Beber a accès à un ou plusieurs espaces de travail donc il arrive sur la vue _liste des espaces de travail_.  
 
-![Vue liste des espaces de travail](../../.gitbook/assets/workspace-select.png)
+![Liste des espaces de travail](../../.gitbook/assets/bertrand-workspace-select-1.png)
+
+{% hint style="info" %}
+La phrase d'accroche de l'exemple sera changée en :  
+"Build, Run, Monitor  
+your SOA integration backbone."
+{% endhint %}
 
 Beber clique sur un espace de travail dans la liste et il est redirigé vers son [espace de travail](visualiser-un-espace-de-travail.md).
 
