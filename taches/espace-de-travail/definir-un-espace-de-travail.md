@@ -26,7 +26,7 @@ Tous les champs sont vides par défaut. Beber renseigne pour son espace de trava
 * Un _nom,_ obligatoire 
 * Une _description,_ optionnelle
 
-![Vue cr&#xE9;ation d&apos;espace de travail remplie](../../.gitbook/assets/workspace-create.png)
+![Cette vue est obsol&#xE8;te et sera mise &#xE0; jour.](../../.gitbook/assets/workspace-create.png)
 
 Le bouton _create_ s'active et Beber clique dessus pour créer son espace de travail, il est redirigé sur l'espace de travail créé.
 
