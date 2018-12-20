@@ -18,13 +18,13 @@ Un identifiant et mot de passe sont prérequis pour accéder aux fonctionnalité
 L'application doit permettre de définir un nouvel espace de travail.  
 Cette entité permet principalement de gérer un ou plusieurs **bus Petals**.
 
-Le nom d'un espace de travail n'est pas unique car il peut-être partagé avec d'autres utilisateurs.
+Le nom d'un espace de travail ~~n'est pas unique car il peut-être partagé avec d'autres utilisateurs~~ est unique car il identifie l'espace lorsqu'il est partagé entre utilisateurs \(exemple par adresse\)
 
-On doit pouvoir attribuer des droits d'accès à l'espace de travail pour les utilisateurs cockpit en fonction du niveau de permission \(facultatif\).
+~~On doit pouvoir attribuer des droits d'accès à l'espace de travail pour les utilisateurs cockpit en fonction du niveau de permission \(facultatif\).~~
 
 On doit également pouvoir ajouter une description.
 
-Seul l'administrateur de l'espace de travail et les utilisateurs ayant une permission sont autoriser à travailler sur celui-ci.
+Seul les utilisateurs ayant une permission sont autorisés à travailler sur celui-ci, cette permission est accordée par l'administrateur.
 
 **Intérêt pour les Utilisateurs**
 
@@ -38,11 +38,15 @@ L'application doit permettre de charger un espace de travail.
 
 L'espace de travail doit apparaître dans une liste qui peut être vide lors de la première utilisation.
 
-L'espace-travail est défini par un nom, une description, des utilisateurs \(si partagé\) et une ou plusieurs topologies \(si présentes\).
+La liste contient l'ensemble des espaces de travail de l'application, que l'utilisateur y ait accès ou non.
 
-Pour chaque espace de travail qui se trouve dans cette liste, le nom des **bus Petals** présent doit apparaître clairement.
+~~L'espace-travail est défini par un nom, une description, des utilisateurs \(si partagé\) et une ou plusieurs topologies \(si présentes\).~~
 
-La liste des noms d'espace de travail accessible doit être présente depuis la barre des tâches de l'espace de travail pour effectuer un changement rapide.
+Dans la liste, les espaces de travail sont représentés par leurs noms, leurs descriptions et le nombre d'utilisateurs y aillant accès. La description complète ainsi que les administrateurs doit être affichable.
+
+~~Pour chaque espace de travail qui se trouve dans cette liste, le nom des **bus Petals** présent doit apparaître clairement.~~
+
+Au cours de l'utilisation de l'application, une fois un espace chargé, la liste des espaces de travail doit être accessible depuis la barre des tâches.
 
 **Intérêt pour les Utilisateurs**
 
@@ -70,13 +74,13 @@ Dans le cas où un utilisateur se trouve déjà sur la vue d'un espace de travai
 
 L'application doit permettre de quitter un espace de travail lorsque l'utilisateur se trouve à l'intérieur de celui-ci.
 
-En fonction du niveau d'accès, l'utilisateur doit avoir les droits suffisants pour effectuer cette action.
+~~En fonction du niveau d'accès, l'utilisateur doit avoir les droits suffisants pour effectuer cette action.~~
 
-Un message de confirmation doit apparaître lors de cette étape.
+Un message de confirmation doit apparaître lors de cette étape. ?
 
-Une notification est envoyée à tous les utilisateurs de l'espace de travail une fois l'action effectuée.
+~~Une notification est envoyée à tous les utilisateurs de l'espace de travail une fois l'action effectuée.~~
 
-Dans le cas où un utilisateur travaille dans le même temps sur l'espace de travail, il doit pouvoir consulter l'ensemble des éléments présent mais ne peut pas effectuer d'action.
+Dans le cas où un utilisateur travaille dans le même temps sur l'espace de travail, il doit pouvoir consulter l'ensemble des éléments présent mais ne peut pas effectuer d'action. ?
 
 **Intérêt pour les Utilisateurs**
 
@@ -94,7 +98,7 @@ Un message de confirmation doit apparaître lors de cette étape.
 
 Une notification est envoyée à tous les utilisateurs de l'espace de travail une fois l'action effectuée.
 
-Dans le cas où un utilisateur travaille dans le même temps sur l'espace de travail, il doit pouvoir consulter l'ensemble des éléments présent mais ne peut pas effectuer d'action.
+Dans le cas où un autre utilisateur travaille au même moment sur cet espace de travail, il doit pouvoir continuer de consulter l'ensemble des éléments présent mais ne peut plus effectuer d'actions.
 
 **Intérêt pour les Utilisateurs**
 
