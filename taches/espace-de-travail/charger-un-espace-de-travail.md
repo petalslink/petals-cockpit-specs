@@ -20,7 +20,9 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 ### Maquette illustrative
 
-![Liste des espaces de travail](../../.gitbook/assets/bertrand-workspace-select-1.png)
+![Aucuns espaces existants, la liste est vide.](../../.gitbook/assets/bertrand-workspace-select-0.png)
+
+![Des espaces existent, la liste est affich&#xE9;e](../../.gitbook/assets/bertrand-workspace-select-1.png)
 
 {% hint style="info" %}
 La phrase d'accroche de l'exemple sera changée en :  
@@ -31,7 +33,7 @@ your SOA integration backbone."
 ### Informations complémentaires pour implémentation
 
 * La sélection d'un espace de travail se fait par simple clic sur la zone qui lui est dédiée dans la liste.
-* Survoler une telle zone permet d'afficher un tooltip avec la description intégrale de l'espace, le nom de son ou ses administrateurs, ainsi que le nombre de personnes y ayant accès. ￼
+* Survoler une telle zone permet d'afficher un _tooltip_ avec la description intégrale de l'espace, le nom de son ou ses administrateurs, ainsi que le nombre de personnes y ayant accès. ￼
 * La liste des espaces est triée. Ceux auxquels l'utilisateur a accès sont listés en premier. Les autres viennent après.
 * Une icône \(ou un fond de couleur différente\) marque différemment les espaces auxquels l'utilisateur n'a pas accès.
 
