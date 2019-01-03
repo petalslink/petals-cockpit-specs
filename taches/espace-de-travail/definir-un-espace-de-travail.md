@@ -8,25 +8,36 @@ La notation suivante est prise :
 * Action \(sans crochets\) fait référence à une action utilisateur.
 
 Concepts associés : un **Espace de Travail**.  
-Préconditions : [\[ Se Connecter \]](se-connecter.md)  
-Postconditions : -  
+Préconditions : [\[ Charger un espace de travail \]](charger-un-espace-de-travail.md)  
+Postconditions : [\[ Visualiser un Espace de Travail \]](visualiser-un-espace-de-travail.md)  
 Contraintes : -  
 Complexité : -  
-  
-Beber n'a pas encore d'accès à un espace de travail:
 
-![](../../.gitbook/assets/bertrand-workspace-select-0.png)
 
-Beber clique sur _Create workspace_ et est redirigé sur la vue de création d'un espace de travail: 
+### Scénarios
+
+{% hint style="info" %}
+Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de tooltip, etc\).
+{% endhint %}
+
+**Scénario normal :** Albert veut créer un espace de travail pour travailler. Donne un nom \(et optionnellement une description\) pour le nouvel espace et valide son choix. ￼Il est redirigé vers L'espace créé.
+
+**Scénario alternatif:** Albert voulait créer un espace de travail, mais change d'avis. Il retourne sur la selection des espaces.
+
+### 
+
+### Maquette illustrative
 
 ![](../../.gitbook/assets/bertrand-workspace-create-1.png)
 
-Tous les champs sont vides par défaut. Beber renseigne pour son espace de travail :
 
-* Un _nom,_ obligatoire 
-* Une _description,_ optionnelle
 
-![Cette vue est obsol&#xE8;te et sera mise &#xE0; jour.](../../.gitbook/assets/workspace-create.png)
+### Informations complémentaires pour implémentation
 
-Le bouton _create_ s'active et Beber clique dessus pour créer son espace de travail, il est redirigé sur l'espace de travail créé.
+* Tous les champs sont vides par défaut. 
+* Le champ _nom_ est obligatoire.
+* Le champ _description_ est optionnel.
+* Créer un espace de travail
+
+
 
