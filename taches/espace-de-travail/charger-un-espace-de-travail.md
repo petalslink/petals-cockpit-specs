@@ -22,7 +22,7 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 ![Aucuns espaces existants, la liste est vide.](../../.gitbook/assets/bertrand-workspace-select-0.png)
 
-![Des espaces existent, la liste est affich&#xE9;e](../../.gitbook/assets/bertrand-workspace-select-1.png)
+![Des espaces existent, la liste est affich&#xE9;e](../../.gitbook/assets/bertrand-workspace-select-1%20%281%29.png)
 
 {% hint style="info" %}
 La phrase d'accroche de l'exemple sera changée en :  
