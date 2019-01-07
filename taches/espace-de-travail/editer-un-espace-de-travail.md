@@ -35,7 +35,7 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
  
 
-![La partie notifications en haut &#xE0; droite est l&#xE0; a m&#xEA;me que sur un espace de travail.](../../.gitbook/assets/bus-1.png)
+![La partie notifications en haut &#xE0; droite est l&#xE0; m&#xEA;me que sur un espace de travail.](../../.gitbook/assets/bus-1.png)
 
 ### Remarque
 
