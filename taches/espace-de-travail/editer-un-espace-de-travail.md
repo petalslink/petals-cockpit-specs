@@ -23,21 +23,14 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 **Scénario alternatif 1 :** Albert veut éditer un espace de travail pour effectuer des changements dans la liste des membres ayant accès à l'espace de travail. Il souhaite ajouter un nouveau membre. Il saisi le nom filtré, sélectionne l'utilisateur parmi la liste déroulante, et ajoute le nouveau membre. La liste est mis à jour.
 
-**Scénario alternatif 2 :** Albert veut éditer un espace de travail pour effectuer des changements dans la liste des membres ayant accès à l'espace de travail. Il souhaite supprimer un nouveau membre. Il cherche le membre parmi la liste et le supprime à l'aide de l’icône de suppression. La liste est mis à jour.
+**Scénario alternatif 2 :** Albert veut éditer un espace de travail pour effectuer des changements dans la liste des membres ayant accès à l'espace de travail. Il souhaite supprimer un nouveau membre. Il cherche le membre parmi la liste et le supprime à l'aide de l’icône de suppression. La liste est mise à jour.
 
 ### Maquette illustrative <a id="maquette-illustrative"></a>
 
-![Vue non administrateur \(note: le header n&apos;est pas &#xE0; jour, &quot;last actions&quot; sera supprim&#xE9;\).](../../.gitbook/assets/workspace.png)
+![Vue normale](../../.gitbook/assets/workspace-view.png)
 
- 
+![Vue administrateur](../../.gitbook/assets/workspace-view-admin.png)
 
-![Vue administrateur \(le header n&apos;est pas &#xE0; jour\)](../../.gitbook/assets/workspace-edit.png)
-
- 
-
-### Remarque
-
-Le bandeau header n'est pas à jour dans les maquettes. Le bouton **Edit Workspace** y sera supprimé.  
-Le panel **Last Actions** ne sera pas développé pour le moment.  
+  
 
 

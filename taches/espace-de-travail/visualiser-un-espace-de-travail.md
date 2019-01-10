@@ -13,3 +13,9 @@ Postconditions : -
 Contraintes : -  
 Complexité : -
 
+### Maquettes
+
+![Vue d&apos;un espace de travail \(en tant qu&apos;administrateur\)](../../.gitbook/assets/workspace-view-admin.png)
+
+![Vue d&apos;un espace de travail](../../.gitbook/assets/workspace-view.png)
+
