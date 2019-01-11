@@ -8,7 +8,7 @@ La notation suivante est prise :
 * Action \(sans crochets\) fait référence à une action utilisateur.
 
 Concepts associés : un **Espace de Travail**.  
-Préconditions : [\[ Se Connecter \]](se-connecter.md) [\[ Charger un espace de travail \]](charger-un-espace-de-travail.md)  
+Préconditions : [\[ Se Connecter \]](se-connecter.md) [\[ Ouvrir un espace de travail \]](charger-un-espace-de-travail.md)  
 Postconditions : -  
 Contraintes : -  
 Complexité : -

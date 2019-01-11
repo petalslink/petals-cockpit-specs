@@ -1,4 +1,4 @@
-# Charger un espace de travail
+# Ouvrir un espace de travail
 
 Concepts associés : un **Espace de Travail**.  
 Préconditions : [\[ Se connecter \]](se-connecter.md)  

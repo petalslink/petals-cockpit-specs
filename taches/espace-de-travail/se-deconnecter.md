@@ -8,7 +8,7 @@ La notation suivante est prise :
 * Action \(sans crochets\) fait référence à une action utilisateur.
 
 Concepts associés : l'application elle-même, pas vraiment un concept.  
-Préconditions : [\[ Charger un Espace de Travail \]](charger-un-espace-de-travail.md)  
+Préconditions :   
 Postconditions : -  
 Contraintes : -  
 Complexité : -

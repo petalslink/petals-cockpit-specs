@@ -9,7 +9,7 @@ La notation suivante est prise :
 
 Concepts associés : l'application elle-même, pas vraiment un concept.  
 Préconditions : -  
-Postconditions :[ \[ Charger un espace de travail \]](charger-un-espace-de-travail.md)  
+Postconditions :[ \[ Ouvrir un espace de travail \]](charger-un-espace-de-travail.md)  
 Contraintes : -  
 Complexité : -
 
