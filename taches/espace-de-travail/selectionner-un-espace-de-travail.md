@@ -21,7 +21,7 @@ Complexité : -
 
 ### Maquette
 
-![Menu d&#xE9;roulant](../../.gitbook/assets/header-menu-workspaces.png)
+![](../../.gitbook/assets/menu-deroulant-espaces.png)
 
 
 

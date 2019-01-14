@@ -32,7 +32,7 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 ![Vue cr&#xE9;ation d&apos;un espace de travail](../../.gitbook/assets/bertrand-workspace-create-1.png)
 
-![Menu d&#xE9;roulant \(n&#xE9;cessite d&apos;avoir charg&#xE9; un espace de travail\)](../../.gitbook/assets/header-menu-workspaces.png)
+![](../../.gitbook/assets/menu-deroulant-espaces.png)
 
 ### Informations complémentaires pour implémentation
 

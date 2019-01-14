@@ -25,7 +25,7 @@ Complexité : -
 
 ### Maquettes
 
-![Menu d&#xE9;roulant \(Note: le bouton sera &quot;Workspaces list&quot;\)](../../.gitbook/assets/header-menu-workspaces.png)
+![](../../.gitbook/assets/menu-deroulant-espaces.png)
 
 
 

@@ -19,6 +19,8 @@ Complexité : -
 
 ![Vue d&apos;un espace de travail](../../.gitbook/assets/workspace-view.png)
 
+![Menu d&#xE9;roulant](../../.gitbook/assets/menu-deroulant-espaces.png)
+
 ### Remarque
 
 Pour visualiser un espace, l'utilisateur peut :
