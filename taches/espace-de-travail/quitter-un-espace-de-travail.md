@@ -19,18 +19,13 @@ Complexité : -
 
 ### Scénario
 
-**scénario normal:** Albert veut quitter son espace de travail, il ouvre le menu déroulant et retourne à la page de selection d'espaces.
-
-
+**Scénario normal:** Albert veut quitter son espace de travail, il ouvre le menu déroulant et retourne à la page de selection d'espaces.
 
 ### Maquettes
 
-![](../../.gitbook/assets/menu-deroulant-espaces.png)
-
-
+![](../../.gitbook/assets/proposition-fil-d-ariane-6.png)
 
 ### Remarque
 
-* Le texte du bouton sera "Workspaces list" et non "back to workspaces" comme dans la maquette.
 * Il n'y a pas de demande de confirmation pour quitter l'espace.
 

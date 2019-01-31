@@ -20,7 +20,7 @@ Complexité : -
 Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de tooltip, etc\).
 {% endhint %}
 
-**Scénario normal :** Albert veut créer un espace de travail pour travailler. Donne un nom \(et optionnellement une description\) pour le nouvel espace et valide son choix. ￼Il est redirigé vers L'espace créé.
+**Scénario normal :** Albert veut créer un espace de travail pour travailler. Donne un nom \(et optionnellement une description\) pour le nouvel espace et valide son choix. ￼Il est redirigé vers l'espace créé.
 
 **Scénario alternatif:** Albert voulait créer un espace de travail, mais change d'avis. Il retourne sur la selection des espaces.
 
@@ -30,9 +30,9 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 ### Maquette illustrative
 
-![Vue cr&#xE9;ation d&apos;un espace de travail](../../.gitbook/assets/bertrand-workspace-create-1.png)
+![](../../.gitbook/assets/workspace-create-v3.png)
 
-![](../../.gitbook/assets/menu-deroulant-espaces.png)
+![](../../.gitbook/assets/proposition-fil-d-ariane-6.png)
 
 ### Informations complémentaires pour implémentation
 
@@ -40,6 +40,10 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 * Le champ _nom_ est obligatoire.
 * Le champ _description_ est optionnel.
 * Le menu déroulant n'est accessible qu'une fois un espace chargé.
+
+{% hint style="info" %}
+L'importation d'une image pour son espace de travail à sa création sera développé probablement après le refactor des vues.
+{% endhint %}
 
 
 

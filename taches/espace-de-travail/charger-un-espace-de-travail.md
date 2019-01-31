@@ -20,20 +20,19 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 ### Maquette illustrative
 
-![Aucuns espaces existants, la liste est vide.](../../.gitbook/assets/bertrand-workspace-select-0.png)
+![](../../.gitbook/assets/vue-no-workspace.png)
 
-![Des espaces existent, la liste est affich&#xE9;e](../../.gitbook/assets/bertrand-workspace-select-1%20%281%29.png)
-
-{% hint style="info" %}
-La phrase d'accroche de l'exemple sera changée en :  
-"Build, Run, Monitor  
-your SOA integration backbone."
-{% endhint %}
+![](../../.gitbook/assets/workspace-select-v3.png)
 
 ### Informations complémentaires pour implémentation
 
 * La sélection d'un espace de travail se fait par simple clic sur la zone qui lui est dédiée dans la liste.
-* Survoler une telle zone permet d'afficher un _tooltip_ avec la description intégrale de l'espace, le nom de son ou ses administrateurs, ainsi que le nombre de personnes y ayant accès. ￼
-* La liste des espaces est triée. Ceux auxquels l'utilisateur a accès sont listés en premier. Les autres viennent après.
+* Survoler la zone description permet d'afficher un _tooltip_ avec la description intégrale de l'espace.
+* Survoler l'icône utilisateurs permet d'afficher un _tooltip_ avec le nom de son ou ses administrateurs. 
+* La liste des espaces est triée. Ceux auquels l'utilisateur a accès sont listés en premier. Les autres viennent après. Un badge est attaché à chaque espace de travail indiquant le nombre de personnes y ayant accès.
 * Une icône \(ou un fond de couleur différente\) marque différemment les espaces auxquels l'utilisateur n'a pas accès.
+
+{% hint style="info" %}
+Pour l'instant, l'utilisateur ne voit que les espaces de travail auquels il peut accéder. Le survol du badge indique le nom de tout les utilisateurs de l'espace de travail et la notion d'administrateur ainsi que les droits d'accès sera implémentées plus tard.
+{% endhint %}
 
