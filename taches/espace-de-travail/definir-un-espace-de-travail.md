@@ -38,7 +38,7 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 * Tous les champs sont vides par défaut. 
 * Le champ _nom_ est obligatoire.
-* Le champ _description_ est optionnel.
+* Le champ _description courte_ est optionnel.
 * Le menu déroulant n'est accessible qu'une fois un espace chargé.
 
 {% hint style="info" %}

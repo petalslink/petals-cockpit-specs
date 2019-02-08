@@ -29,10 +29,16 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 * La sélection d'un espace de travail se fait par simple clic sur la zone qui lui est dédiée dans la liste.
 * Une icône utilisateur est attaché à chaque espace de travail indiquant le nombre de personnes y ayant accès.
 * Survoler l'icône utilisateurs permet d'afficher un _tooltip_ avec le nom de son ou ses administrateurs. 
-* La liste des espaces est triée. Ceux auxquels l'utilisateur a accès sont listés en premier. Les autres viennent après. 
+* La liste des espaces est triée. Ceux auxquels l'utilisateur a accès sont listés en premier. Les autres viennent après.
 * Une icône \(ou un fond de couleur différente\) marque différemment les espaces auxquels l'utilisateur n'a pas accès.
+* La description affichée dans un espace de travail sera courte et limité à peu de caractères. 
+* Une description plus complète sans limitation de caractères sera présente dans la vue d'un espace de travail sélectionné. Par défaut, la description sera vide.
 
 {% hint style="info" %}
 Pour l'instant, l'utilisateur ne voit que les espaces de travail auxquels il peut accéder. Le survol du badge indique le nom de tout les utilisateurs de l'espace de travail et la notion d'administrateur ainsi que les droits d'accès sera implémentées plus tard.
+{% endhint %}
+
+{% hint style="warning" %}
+Faire la distinction entre une _description détaillée_ et une _description bref_ d'un espace de travail pour ne pas surcharger la vue et faciliter la lecture des espaces de travail dans la liste.
 {% endhint %}
 
