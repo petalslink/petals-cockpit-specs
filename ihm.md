@@ -8,6 +8,7 @@ En cas de conflit entre la charte graphique préconisée et celle ci-dessous, c'
 
 * L'application doit occuper toute la largeur de l'écran. Pas de largeur fixe.
 * Le design est réfléchi de manière à s'ajuster et s'adapter aux appareils de type ordinateur de table \(desktop\) ou tablette \(touch pad\). En suivant l'approche de conception _"desktop-first"_, l'interface d'un mobile n'est pas entièrement prise en charge.
+* La taille minimale (résolution) de la zone d'affichage (à l'intérieur du navigateur web) est définie à 960 pixels de large (par 540 pixels de haut) les largeurs correspondent à md, lg et xl sur [flex layout](https://github.com/angular/flex-layout/wiki/Responsive-API#mediaqueries-and-aliases) et à small-tablet (la plus grande taille de small), medium, large et xlarge sur [material design](https://material.io/design/layout/responsive-layout-grid.html#breakpoints). Au dessous de cette taille, l'application peut avoir des problèmes d'affichage.
 * Le menu doit être accessible à tout instant, y compris quand la page devient très grande.
 * L'application sera constitué d'une image marketing \(logo\) de Petals ESB et devra être toujours visible.
 * L'application est découpée en plusieurs parties distinctes :
