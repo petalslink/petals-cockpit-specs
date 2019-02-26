@@ -23,7 +23,7 @@ Complexité : -
 
 ### Maquettes
 
-![](../../.gitbook/assets/proposition-fil-d-ariane-6.png)
+![Menu d&#xE9;roulant accessible depuis un espace de travail](../../.gitbook/assets/proposition-fil-d-ariane-6.png)
 
 ### Remarque
 

@@ -17,11 +17,9 @@ Complexité : -
 
 **Scénario normal :** Albert est connecté à un espace de travail, il ouvre le menu déroulant et sélectionne son nouvel espace de travail parmis la liste. Il est redirigé vers la page [visualiser](visualiser-un-espace-de-travail.md) de ce dernier.
 
-
-
 ### Maquette
 
-![](../../.gitbook/assets/proposition-fil-d-ariane-6.png)
+![Menu d&#xE9;roulant accessible depuis un espace de travail](../../.gitbook/assets/proposition-fil-d-ariane-6.png)
 
 
 

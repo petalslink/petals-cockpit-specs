@@ -10,11 +10,11 @@ Complexité : -
 "Quitter le groupe" de l'espace de travail revient à se retirer les accès à l'espace de travail courant. A la fin de l'action, l'utilisateur ne fera plus partie des membres aillant accès à l'espace de travail.
 {% endhint %}
 
-### Scénarios
+### Scénario
 
-**scénario normal:** Albert ne veut plus avoir accès à l'espace de travail **prod**, depuis la vue détail de l'espace en question il se retire des membres aillant accès à l'espace. Il est déconnecté de l'espace de travail courant et est redirigé vers la page le section d'espace de travail. Il n'a plus accès à l'espace de travail.
+**Scénario normal:** Albert ne veut plus avoir accès à l'espace de travail **prod.** Depuis la vue détail de l'espace en question, il se retire des membres aillant accès à l'espace. Il est déconnecté de l'espace de travail courant et est redirigé vers la page de sélection d'un espace de travail. Il n'aura plus accès à cette espace de travail.
 
 ### Maquettes
 
-![Vue d&apos;un espace de travail](../../.gitbook/assets/workspace-view.png)
+Reste à définir !
 

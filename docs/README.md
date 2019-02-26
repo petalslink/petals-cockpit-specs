@@ -16,7 +16,6 @@
     * [Créer un espace de travail](../taches/espace-de-travail/definir-un-espace-de-travail.md)
     * [Ouvrir un espace de travail](../taches/espace-de-travail/charger-un-espace-de-travail.md)
     * [Ouvrir un espace de travail depuis un autre espace](../taches/espace-de-travail/selectionner-un-espace-de-travail.md)
-    * [Éditer un espace de travail](../taches/espace-de-travail/editer-un-espace-de-travail.md)
     * [Fermer un espace de travail](../taches/espace-de-travail/quitter-un-espace-de-travail.md)
     * [Quitter le groupe de l'espace de travail](../taches/espace-de-travail/quitter-le-groupe-de-lespace-de-travail.md)
     * [Supprimer un espace de travail](../taches/espace-de-travail/supprimer-un-espace-de-travail.md)

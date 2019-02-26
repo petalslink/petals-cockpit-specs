@@ -25,7 +25,7 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 ### Maquette illustrative <a id="maquette-illustrative"></a>
 
-![Vue administrateur d&apos;un espace de travail](../../.gitbook/assets/workspace-view-admin.png)
+Reste à définir la position du bouton de suppression.
 
 
 

@@ -11,8 +11,7 @@ Concepts associés : un **Espace de Travail**.
 Préconditions : [\[ Se connecter \]](se-connecter.md)  [\[ Charger un espace de travail \]](charger-un-espace-de-travail.md)  
 Postconditions : [\[ Visualiser un Espace de Travail \]](visualiser-un-espace-de-travail.md)  
 Contraintes : -  
-Complexité : -  
-
+Complexité : -
 
 ### Scénarios
 
@@ -26,13 +25,11 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 **Scénario alternatif 2:**  Albert est déjà connecté à un espace de travail, il accède à la page de création d'espace à l'aide du menu déroulant. suite : **scénario normal.**
 
-\*\*\*\*
-
 ### Maquette illustrative
 
-![](../../.gitbook/assets/workspace-create-v3.png)
+![Page de cr&#xE9;ation d&apos;un nouvel espace de travail](../../.gitbook/assets/workspace-create-v3.png)
 
-![](../../.gitbook/assets/proposition-fil-d-ariane-6.png)
+![Menu d&#xE9;roulant accessible depuis un espace de travail](../../.gitbook/assets/proposition-fil-d-ariane-6.png)
 
 ### Informations complémentaires pour implémentation
 

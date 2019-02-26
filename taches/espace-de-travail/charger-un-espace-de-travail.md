@@ -20,9 +20,9 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 ### Maquette illustrative
 
-![](../../.gitbook/assets/vue-no-workspace.png)
+![Page d&apos;accueil des espaces de travail \(vide\)](../../.gitbook/assets/vue-no-workspace.png)
 
-![](../../.gitbook/assets/workspace-select-v3.png)
+![Page d&apos;accueil des espaces de travail](../../.gitbook/assets/workspace-select-v3.png)
 
 ### Informations complémentaires pour implémentation
 
