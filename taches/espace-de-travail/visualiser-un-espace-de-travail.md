@@ -31,7 +31,7 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 ![Page d&apos;accueil d&apos;un espace de travail ouvert](../../.gitbook/assets/workspace-overview%20%281%29.png)
 
-![Page d&apos;accueil d&apos;un espace de travail ouvert \(&#xE9;dition\)](../../.gitbook/assets/workspace-overview-edit.png)
+![Page d&apos;accueil d&apos;un espace de travail ouvert \(&#xE9;dition\)](../../.gitbook/assets/workspace-overview-edit%20%281%29.png)
 
 ![Menu d&#xE9;roulant accessible depuis un espace de travail](../../.gitbook/assets/workspace-overview-menu.png)
 
