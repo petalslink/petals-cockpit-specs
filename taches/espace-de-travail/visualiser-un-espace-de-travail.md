@@ -29,7 +29,7 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 ### Maquettes
 
-![Page d&apos;accueil d&apos;un espace de travail ouvert](../../.gitbook/assets/workspace-overview.png)
+![Page d&apos;accueil d&apos;un espace de travail ouvert](../../.gitbook/assets/workspace-overview%20%281%29.png)
 
 ![Page d&apos;accueil d&apos;un espace de travail ouvert \(&#xE9;dition\)](../../.gitbook/assets/workspace-overview-edit.png)
 

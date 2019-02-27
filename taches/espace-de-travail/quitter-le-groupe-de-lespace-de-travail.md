@@ -12,9 +12,9 @@ Complexité : -
 
 ### Scénario
 
-**Scénario normal:** Albert ne veut plus avoir accès à l'espace de travail **prod.** Depuis la vue détail de l'espace en question, il se retire des membres aillant accès à l'espace. Il est déconnecté de l'espace de travail courant et est redirigé vers la page de sélection d'un espace de travail. Il n'aura plus accès à cette espace de travail.
+**Scénario normal:** Albert ne veut plus avoir accès à l'espace de travail **prod.** Depuis la vue détail de l'espace en question, il se retire des membres aillant accès à l'espace après avoir confirmé. Il est déconnecté de l'espace de travail courant et est redirigé vers la page de sélection d'un espace de travail. Il n'aura plus accès à cette espace de travail.
 
 ### Maquettes
 
-Reste à définir !
+![Message de confirmation pour quitter le groupe de l&apos;espace de travail](../../.gitbook/assets/workspace-overview-leave.png)
 
