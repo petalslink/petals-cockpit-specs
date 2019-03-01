@@ -27,5 +27,5 @@ Complexité : -
 
 ### Remarque
 
-* Il n'y a pas de demande de confirmation pour quitter l'espace.
+* Il n'y a pas de demande de confirmation pour fermer l'espace courant.
 

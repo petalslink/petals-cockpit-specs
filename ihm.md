@@ -44,7 +44,7 @@ En cas de conflit entre la charte graphique préconisée et celle ci-dessous, c'
 
 ![toolbar espace de travail avec bus s&#xE9;lectionn&#xE9; \(exemple depuis un conteneur\)](.gitbook/assets/fil-dariane.png)
 
-![menu espace de travail](.gitbook/assets/menu.png)
+![menu espace de travail](.gitbook/assets/workspace-overview-menu-1.png)
 
 * les différentes vues principales lorsqu'un espace de travail est ouvert :
   * vue topologie
@@ -61,9 +61,6 @@ En cas de conflit entre la charte graphique préconisée et celle ci-dessous, c'
       * ...
   * vue api \(à définir\)
   * vue consoles \(à définir\)
-
-
-
 * une page avec plusieurs parties distinctes qui permet de :
   * administrer les utilisateurs cockpit \(à condition d'avoir les droits administrateur\)
   * modifier les préférences utilisateur 

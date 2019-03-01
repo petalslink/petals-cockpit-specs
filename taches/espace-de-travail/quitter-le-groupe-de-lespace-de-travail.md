@@ -16,5 +16,5 @@ Complexité : -
 
 ### Maquettes
 
-![Message de confirmation pour quitter le groupe de l&apos;espace de travail](../../.gitbook/assets/workspace-overview-leave.png)
+![Message de confirmation pour quitter le groupe de l&apos;espace de travail](../../.gitbook/assets/workspace-overview-leave-1.png)
 

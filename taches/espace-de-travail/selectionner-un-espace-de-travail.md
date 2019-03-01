@@ -27,6 +27,6 @@ Complexité : -
 
 * La liste des espaces de travail dans le menu déroulant ne contient que les espaces de travail auquel l'utilisateur a accès.
   * L'espace courant est présent dans la liste et mis en évidence \(ombrage, highlight, focus ...\). Cliquer dessus amène au détail de ce dernier.
-  * Les autres espaces auxquels l'utilisateur a accès \(dont il est membre\) son presents mais non mis en évidence. Cliquer dessus fait quitter l'espace actuel et redirige l'utilisateur sur la page détail du nouvel espace de travail.
+  * Les autres espaces auxquels l'utilisateur a accès \(dont il est membre\) son presents mais non mis en évidence. Cliquer dessus fait quitter l'espace actuel et redirige l'utilisateur sur la page principale du nouvel espace de travail.
 * Il n'y a pas de confirmation à donner lorsqu'on clique sur un des espaces de la liste, la redirection est immédiate.
 
