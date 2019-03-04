@@ -8,12 +8,16 @@ La notation suivante est prise :
 * Action \(sans crochets\) fait référence à une action utilisateur.
 
 Concepts associés : un **Espace de Travail**.  
-Préconditions : [\[](charger-un-espace-de-travail.md)[ Ouvrir un espace de travail \]](charger-un-espace-de-travail.md)  
+Préconditions : [\[ Se Connecter \]](se-connecter.md) [\[](charger-un-espace-de-travail.md)[ Ouvrir un espace de travail \]](charger-un-espace-de-travail.md)  
 Postconditions : -  
 Contraintes : -  
 Complexité : -
 
 ### Scénario
+
+{% hint style="info" %}
+Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de tooltip, etc\).
+{% endhint %}
 
 **Scénario normal :** Albert est connecté à un espace de travail, il ouvre le menu déroulant et sélectionne son nouvel espace de travail parmis la liste. Il est redirigé vers la page [visualiser](visualiser-un-espace-de-travail.md) de ce dernier.
 
@@ -23,7 +27,7 @@ Complexité : -
 
 
 
-### Remarque
+### Informations complémentaires pour implémentation
 
 * La liste des espaces de travail dans le menu déroulant ne contient que les espaces de travail auquel l'utilisateur a accès.
   * L'espace courant est présent dans la liste et mis en évidence \(ombrage, highlight, focus ...\). Cliquer dessus amène au détail de ce dernier.

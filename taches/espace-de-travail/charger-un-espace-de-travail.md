@@ -1,5 +1,12 @@
 # Ouvrir un espace de travail
 
+{% hint style="info" %}
+La notation suivante est prise :
+{% endhint %}
+
+* \[ tâche \] fait référence à une autre tâche.
+* Action \(sans crochets\) fait référence à une action utilisateur.
+
 Concepts associés : un **Espace de Travail**.  
 Préconditions : [\[ Se connecter \]](se-connecter.md)  
 Postconditions : [\[ Visualiser un Espace de Travail \]](visualiser-un-espace-de-travail.md)  
@@ -18,7 +25,7 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
   
 **￼Scénario alternatif 2 :** Albert veut sélectionner un espace de travail pour travailler. Plusieurs sont listés. Il sélectionne celui qui s'appelle **pre-prod** mais ne peut valider son choix. En effet, il n'a pas les droits suffisants. Il peut toutefois récupérer le nom de l'administrateur de cet espace pour prendre contact avec lui.
 
-### Maquette illustrative
+### Maquettes
 
 ![Page d&apos;accueil des espaces de travail \(vide\)](../../.gitbook/assets/vue-no-workspace.png)
 

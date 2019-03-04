@@ -4,6 +4,6 @@ Voici quelques exemples de scénarios et des extraits de maquette pour vous fami
 
 * [Sélectionner une topologie](selectionner-une-topologie.md)
 * [Visualiser une topologie](visualiser-une-topologie.md)
-* [Importer une topologie](importer-une-topologie.md)
-* [Supprimer une topologie](supprimer-une-topologie.md)
+* [Attacher une topologie](attacher-une-topologie.md)
+* [Détacher une topologie](detacher-une-topologie.md)
 

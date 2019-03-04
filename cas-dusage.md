@@ -13,18 +13,15 @@ Un identifiant et mot de passe sont prérequis pour accéder aux fonctionnalité
 | :--- | :--- | :--- |
 | Offrir un environnement de travail personnel et sécurisé | Offrir un environnement de travail personnel et sécurisé | Offrir un environnement de travail personnel et sécurisé |
 
-## Créer un nouvel espace de travail
+## Créer un espace de travail
 
 L'application doit permettre de définir un nouvel espace de travail.  
 Cette entité permet principalement de gérer un ou plusieurs **bus Petals**.
 
-Le nom d'un espace de travail ~~n'est pas unique car il peut-être partagé avec d'autres utilisateurs~~ est unique car il identifie l'espace lorsqu'il est partagé entre utilisateurs \(exemple par adresse\)
+On doit également pouvoir ajouter une description courte.
 
-~~On doit pouvoir attribuer des droits d'accès à l'espace de travail pour les utilisateurs cockpit en fonction du niveau de permission \(facultatif\).~~
-
-On doit également pouvoir ajouter une description.
-
-Seul les utilisateurs ayant une permission sont autorisés à travailler sur celui-ci, cette permission est accordée par l'administrateur.
+Seul les utilisateurs ayant une permission sont autorisés à travailler sur celui-ci.   
+Cette permission est accordée par l'administrateur.
 
 **Intérêt pour les Utilisateurs**
 
@@ -32,21 +29,15 @@ Seul les utilisateurs ayant une permission sont autorisés à travailler sur cel
 | :--- | :--- | :--- |
 | Offrir un espace personnel ou partagé. | Regrouper le travail a effectué dans un répertoire. | S'approprier l'approche projet/utilisateur de Petals Cockpit. |
 
-## Charger un espace de travail
+## Ouvrir un espace de travail
 
-L'application doit permettre de charger un espace de travail.
-
-L'espace de travail doit apparaître dans une liste qui peut être vide lors de la première utilisation.
+L'application doit permettre d'ouvrir un espace de travail depuis la liste affichée après s'être connecté mais aussi depuis un autre espace de travail.
 
 La liste contient l'ensemble des espaces de travail de l'application, que l'utilisateur y ait accès ou non.
 
-~~L'espace-travail est défini par un nom, une description, des utilisateurs \(si partagé\) et une ou plusieurs topologies \(si présentes\).~~
+Dans la liste, les espaces de travail sont représentés par leurs noms, leurs descriptions courtes et le nombre d'utilisateurs y aillant accès. La description courte ainsi que les administrateurs doivent être affichable.
 
-Dans la liste, les espaces de travail sont représentés par leurs noms, leurs descriptions et le nombre d'utilisateurs y aillant accès. La description complète ainsi que les administrateurs doit être affichable.
-
-~~Pour chaque espace de travail qui se trouve dans cette liste, le nom des **bus Petals** présent doit apparaître clairement.~~
-
-Au cours de l'utilisation de l'application, une fois un espace chargé, la liste des espaces de travail doit être accessible depuis la barre des tâches.
+Au cours de l'utilisation de l'application, une fois un espace chargé, la liste des espaces de travail doit être accessible depuis le header.
 
 **Intérêt pour les Utilisateurs**
 
@@ -60,7 +51,7 @@ L'application doit permettre de modifier un espace de travail.
 
 En fonction du niveau d'accès, l'utilisateur doit avoir les droits suffisants pour effectuer cette action.
 
-Une notification est envoyée à tous les utilisateurs de l'espace de travail une fois l'action effectuée.
+Dans certains cas, une notification est envoyée à tous les utilisateurs de l'espace de travail une fois l'action effectuée.
 
 Dans le cas où un utilisateur se trouve déjà sur la vue d'un espace de travail éditée, la mise à jour des informations doit s'effectuée en temps réel automatiquement.
 
@@ -70,23 +61,19 @@ Dans le cas où un utilisateur se trouve déjà sur la vue d'un espace de travai
 | :--- | :--- | :--- |
 | Pas d'intérêt particulier. | Pas d'intérêt particulier. | Pas d'intérêt particulier. |
 
-## Quitter un espace de travail
+## Quitter le groupe de l'espace de travail
 
 L'application doit permettre de quitter un espace de travail lorsque l'utilisateur se trouve à l'intérieur de celui-ci.
 
-~~En fonction du niveau d'accès, l'utilisateur doit avoir les droits suffisants pour effectuer cette action.~~
+Un message de confirmation doit apparaître lors de cette étape.
 
-Un message de confirmation doit apparaître lors de cette étape. ?
-
-~~Une notification est envoyée à tous les utilisateurs de l'espace de travail une fois l'action effectuée.~~
-
-Dans le cas où un utilisateur travaille dans le même temps sur l'espace de travail, il doit pouvoir consulter l'ensemble des éléments présent mais ne peut pas effectuer d'action. ?
+Dans le cas où l'utilisateur souhaite faire à nouveau partie de l'espace de travail, il devra contacter l'administrateur en trouvant son nom depuis la liste des espaces de travail.
 
 **Intérêt pour les Utilisateurs**
 
 | Consultants | Exploitants | Novices |
 | :--- | :--- | :--- |
-| Abandonner un espace de travail plus à jour. | Abandonner un espace de travail plus à jour. | Repartir de zéro après avoir fait ses tests. |
+| Ne plus faire partie d'un espace de travail. | Ne plus faire partie d'un espace de travail. | Repartir de zéro après avoir fait ses tests. |
 
 ## Supprimer un espace de travail
 
@@ -137,9 +124,9 @@ L'affichage des nœuds doit être ordonnée par nom de nœud. Enfin, il faut pou
 | :--- | :--- | :--- |
 | Découvrir rapidement une topologie en intervention. | Visualiser son domaine d'exploitation dans son ensemble. | S'approprier l'approche distribuée de Petals ESB. |
 
-## Importer une topologie
+## Attacher une topologie
 
-L'application doit permettre d'importer une topologie depuis un espace de travail ouvert.
+L'application doit permettre d'attacher une topologie à un espace de travail ouvert depuis celui-ci.
 
 Il est nécessaire de compléter un formulaire comprenant une _ip_, un _port JMX_, un _nom utilisateur_, un _mot de passe_ et une _phrase secrète_ pour charger les informations d'un ou plusieurs nœuds depuis la machine contacter mais aussi, d'autres machines sur lequels pourraient se trouver un ou plusieurs nœuds supplémentaires de la topologie.
 
@@ -149,9 +136,9 @@ Il est nécessaire de compléter un formulaire comprenant une _ip_, un _port JMX
 | :--- | :--- | :--- |
 | Découvrir une topologie. | Découvrir une topologie. | Découvrir une topologie. |
 
-## Supprimer une topologie
+## Détacher une topologie
 
-L'application doit permettre de supprimer une topologie.
+L'application doit permettre de détacher une topologie d'un espace de travail.
 
 En fonction du niveau d'accès, l'utilisateur doit avoir les droits suffisants pour effectuer cette action.
 
@@ -159,13 +146,13 @@ Un message de confirmation doit apparaître lors de cette étape.
 
 Une notification est envoyée à tous les utilisateurs de l'espace de travail une fois l'action effectuée.
 
-Dans le cas où un utilisateur se trouve sur une des vues de la topologie affichée, il doit pouvoir consulter l'ensemble des informations des pages précédentes mais ne peut plus effectuer d'action sur la topologie supprimer.
+Dans le cas où un utilisateur se trouve sur une des vues de la topologie affichée, il doit pouvoir consulter l'ensemble des informations des pages précédentes mais ne peut plus effectuer d'action sur la topologie détacher.
 
 **Intérêt pour les Utilisateurs**
 
 | Consultants | Exploitants | Novices |
 | :--- | :--- | :--- |
-| Choisir de ne plus travailler avec une topologie. | Choisir de ne plus travailler avec une topologie. | Repartir de zéro et réimporter une nouvelle topologie. |
+| Choisir de ne plus travailler avec une topologie. | Choisir de ne plus travailler avec une topologie. | Repartir de zéro et réattacher une nouvelle topologie. |
 
 ## Visualiser les services d'une topologie Petals
 

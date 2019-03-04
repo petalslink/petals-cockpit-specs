@@ -8,7 +8,6 @@ Voici quelques exemples de scénarios et des extraits de maquette pour vous fami
 * [Ouvrir un espace de travail](charger-un-espace-de-travail.md)
 * [Ouvrir un espace de travail depuis un autre espace](selectionner-un-espace-de-travail.md)
 * [Fermer un espace de travail](quitter-un-espace-de-travail.md)
-* [Quitter le groupe de l'espace de travail](quitter-le-groupe-de-lespace-de-travail.md)
 * [Supprimer un espace de travail](supprimer-un-espace-de-travail.md)
 * [Se déconnecter](se-deconnecter.md)
 

@@ -1,7 +1,7 @@
 # Concepts
 
 Les concepts sont les objets manipulés par l'utilisateur dans l'application.  
-Dans notre application, il y a 5 concepts essentiels :
+Dans notre application, il y a **5 concepts essentiels** :
 
 * Un **espace de travail** est l'entité qui préserve le projet et son contenu. Nous pouvons représenter cela comme un répertoire. Il vise à gérer les différents éléments qui composent l'espace de travail : notamment l'importation d'un ou plusieurs bus Petals et la configuration des éléments qui s'y rapportent ainsi que la consultation des services existants.
 * La **topologie** décrit un bus Petals. Elle est se compose d'un ensemble de containers Petals et d'un ensemble de membre de Registry Petals. On peut étendre son concept aux artefacts déployés sur les containers Petals.
