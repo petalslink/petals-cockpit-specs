@@ -10,35 +10,36 @@ En cas de conflit entre la charte graphique préconisée et celle ci-dessous, c'
 * Le design est réfléchi de manière à s'ajuster et s'adapter aux appareils de type ordinateur de table \(desktop\) ou tablette \(touch pad\). En suivant l'approche de conception _"desktop-first"_, l'interface d'un mobile n'est pas entièrement prise en charge.
 * La taille minimale \(résolution\) de la zone d'affichage \(à l'intérieur du navigateur web\) est définie à 960 pixels de large \(par 540 pixels de haut\) les largeurs correspondent à md, lg et xl sur [flex layout](https://github.com/angular/flex-layout/wiki/Responsive-API#mediaqueries-and-aliases) et à small-tablet \(la plus grande taille de small\), medium, large et xlarge sur [material design](https://material.io/design/layout/responsive-layout-grid.html#breakpoints). Au dessous de cette taille, l'application peut avoir des problèmes d'affichage.
 * Le menu doit être accessible à tout instant depuis un espace de travail ouvert, y compris quand la page devient très grande.
-* L'application sera constitué d'une image marketing \(logo\) de Petals ESB et devra être toujours visible.
+* Les couleurs importantes de cockpit sont le violet \(primaire\), le orange \(secondaire\) et le blanc. En complément, les couleurs acceptées sont le rouge \(erreur\), le bleu \(information\), le vert \(succès\) et le gris.
+
+
+
+## Elements de l'interface
+
+* L'application affichera image marketing \(logo\) de Petals ESB qui devra être toujours visible.
+  * Le logo n'est pas cliquable.
 
 ![logo petals cockpit](.gitbook/assets/logo-petals-sidebar.jpg)
 
-* L'application est découpée en plusieurs parties distinctes :
-  * une barre de navigation latérale appelée "sidebar" qui prend toute la hauteur sur la partie gauche et qui sert avant tout de barre de navigation principal pour cockpit. 
-
-    Elle permet de :
-
-    * visualiser une topologie \(visible que si un espace de travail est ouvert\)
-    * visualiser la liste des services \(visible que si un espace de travail est ouvert\)
-    * visualiser les consoles \(visible que si un espace de travail est ouvert\)
-    * gérer les utilisateurs de cockpit \(espace réservé à l'administrateur\)
-    * gérer ses préférences \(toujours visible lorsque l'utilisateur est connecté\)
-    * se déconnecter \(toujours visible lorsque l'utilisateur est connecté\)
+* Une **barre de navigation latérale** appelée "**sidebar**" qui prend toute la hauteur sur la partie gauche et qui sert avant tout de barre de navigation principale pour cockpit. 
+  * Accès aux vues Topologie, Services, Consoles et Api \(espace de travail ouvert\).
+  * Accès à la vue administration \(réservé aux administrateurs\)
+  * Accès à la vue préférences \(utilisateur est connecté\)
+  * Se déconnecter \(utilisateur est connecté\)
 
 ![](.gitbook/assets/sidebar.png)
 
-* une barre de navigation horizontale sur la partie haute et qui sert de menu pour l'espace de travail ouvert.
-
-  Elle permet de :
-
-  * se rendre sur la vue de sélection d'un espace de travail en quittant l'espace courant
-  * se rendre sur la vue de création d'un nouvel espace de travail en quittant l'espace courant
-  * visualiser le nom de l'espace de travail ouvert
-  * visualiser la liste des espaces de travail
-  * sélectionner un autre espace de travail
-  * visualiser la liste des notifications \(facultatif\)
-  * visualiser le fil d'ariane à partir d'un bus sélectionné
+* Une **barre de navigation horizontale** appelée "**fil d'Ariane**" sur la partie haute et qui sert de menu pour l'espace de travail ouvert.
+  * Propose une icone de notifications à droite \(désactivée pour le moment\)
+  * Ne propose pas d'actions, uniquement des informations et redirections.
+  * Affiche à gauche un icone "elipsis"  ouvrant un menu déroulant qui permet de:
+    * retourner à la liste des espaces
+    * charger un espace auquel on à accès
+    * visualiser l'espace courant
+    * aller à la page de création d'espace
+  * Affiche un fil d’Ariane permettant de savoir où l'on se trouve sur le site, et où se trouve l'élément en train d'être visionné \(par exemple: la hiérarchie de l'artefact dans la topologie\). 
+    * Le contenu exact du fil d'Ariane sera précisé dans chacune des vues.
+    * Chaque élément du fil est cliquable pour accéder au détail de l'élément.
 
 ![toolbar espace de travail sans bus s&#xE9;lectionn&#xE9; \(pas de fil d&apos;ariane\)](.gitbook/assets/barre-menu-workspace%20%281%29.png)
 
@@ -46,25 +47,15 @@ En cas de conflit entre la charte graphique préconisée et celle ci-dessous, c'
 
 ![menu espace de travail](.gitbook/assets/workspace-overview-menu-1.png)
 
-* les différentes vues principales lorsqu'un espace de travail est ouvert :
-  * vue topologie
-    * un volet de navigation qui permet de :
-      * naviguer au travers une topologie Petals \(arbre représentant une ou plusieurs topologie\(s\)\)
-      * rechercher/filtrer un élément sur une ou plusieurs topologie\(s\)
-    * présenter chaque contenu pour chaque élément d'une topologie
-    * procéder à des opérations de déploiement d'artefacts ou de configuration \(modification du cycle de vie, des paramètres ...\)
-    * ...
-  * vue services
-    * un volet de navigation qui permet de :
-      * naviguer au travers les services d'une ou plusieurs topologie\(s\)
-      * raffraîchir la liste des services
-      * ...
-  * vue api \(à définir\)
-  * vue consoles \(à définir\)
-* une page avec plusieurs parties distinctes qui permet de :
-  * administrer les utilisateurs cockpit \(à condition d'avoir les droits administrateur\)
-  * modifier les préférences utilisateur 
-* Les couleurs importantes de cockpit sont le violet \(primaire\), le orange \(secondaire\) et le blanc. En complément, les couleurs acceptées sont le rouge \(erreur\), le bleu \(information\), le vert \(succès\) et le gris.
+* les différentes vues principales lorsqu'un espace de travail est ouvert \(détail en section tâches\) :
+  * **vue topologie** : sert à visualiser et effectuer des actions sur une topologie et chacun de ses éléments. L'exploration est facilitée par un volet de navigation représentant la topologie sous forme d'arbre et une zone contextuelle à chaque élément.
+  * **vue services** : permet de visualiser la liste des services des bus du workspace à l'aide d'un volet de navigation.
+  * **vue api** \(à définir\)
+  * **vue consoles** \(à définir\)
+* Une page d'administration \(nécessite les droits administrateur\):
+  * ajouter/supprimer les utilisateurs cockpit \(versions LDAP et non LDAP\)
+* Une page de préférences utilisateur
+  * Themes \(à déterminer\) 
 
 Plus globalement, la logique du site doit être la suivante :
 
