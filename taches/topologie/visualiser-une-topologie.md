@@ -19,15 +19,25 @@ Complexité : -
 Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de tooltip, etc\).
 {% endhint %}
 
-**Scénario normal :** À définir
+**Scénario normal :** Albert veut consulter les informations du bus sélectionné. La description du bus sélectionné ainsi que la liste des conteneurs existants sur ce bus sont visible. Sur chaque conteneur, il voit son **IP** et son **Port**. Albert sélectionne le conteneur sur lequel il veut se rendre pour avoir plus d'informations.
 
-**Scénario alternatif 1 :** À définir
+**Scénario alternatif 1 :** Albert veut se rendre sur l'espace de travail depuis le bus sélectionné. Il voit le nom de l'espace ouvert dans le "**fil d'ariane**" et le sélectionne pour se rendre sur sa vue.
+
+### Maquettes
+
+![Page d&apos;un bus s&#xE9;lectionn&#xE9;](../../.gitbook/assets/bus.png)
 
 ### Informations complémentaires pour implémentation
+
+* La liste des conteneurs est triée par ordre alphabétique.
 
 Pour visualiser une topologie, l'utilisateur peut :
 
 * Le sélectionner depuis la vue[ \[ Visualiser un espace de travail \]](../espace-de-travail/visualiser-un-espace-de-travail.md) en sélectionnant le bus dans la liste.
 * Le sélectionner depuis la vue [\[Sélectionner une topologie\]](selectionner-une-topologie.md) en sélectionnant le bus dans l'arbre.
-* Lorsqu'il est connecté à son espace de travail, cliquer sur le nom du bus sélectionné qui apparaît dans le fil d'Ariane.
+* Lorsqu'il est connecté à son espace de travail, cliquer sur le nom du bus sélectionné qui apparaît dans le "**fil d'ariane**".
+
+{% hint style="warning" %}
+Le nom du bus sélectionné est visible dans le "**fil d'ariane**" précédé du nom de l'espace de travail. Il apparaît également dans les vues enfants \(conteneur, composant, ...\) en tant que premier enfant du "**fil d'ariane**".
+{% endhint %}
 

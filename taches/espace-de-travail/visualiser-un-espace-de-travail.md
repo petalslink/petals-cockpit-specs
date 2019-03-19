@@ -40,7 +40,11 @@ Pour visualiser un espace, l'utilisateur peut :
 
 * Le sélectionner depuis la vue [\[ Charger un espace de travail \]](charger-un-espace-de-travail.md).
 * Le sélectionner depuis le menu déroulant.
-* Lorsqu'il est connecté, cliquer sur le nom de l'espace de travail dans le fil d'Ariane.
+* Lorsqu'il est connecté, cliquer sur le nom de l'espace de travail dans le "**fil d'ariane**".
+
+{% hint style="warning" %}
+Le nom de l'espace ouvert est visible de manière permanente dans le "**fil d'ariane**". Il apparaît également dans les vues enfants \(bus, conteneur, service ...\) en tant que parent du "**fil d'ariane**".
+{% endhint %}
 
 La description supporte le format markdown pour améliorer sa mis en page et dispose d'une prévisualisation lors de son édition.  
 Les maquettes réalisées impliquent que l'utilisateur dispose des permissions suffisantes et d'un rôle d'administrateur.
