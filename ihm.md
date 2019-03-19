@@ -29,16 +29,16 @@ En cas de conflit entre la charte graphique préconisée et celle ci-dessous, c'
 
 ![](.gitbook/assets/sidebar.png)
 
-* Une **barre de navigation horizontale** appelée "**fil d'Ariane**" sur la partie haute et qui sert de menu pour l'espace de travail ouvert.
-  * Propose une icone de notifications à droite \(désactivée pour le moment\)
+* Une **barre de navigation horizontale** appelée "**header**" sur la partie haute et qui sert de menu pour l'espace de travail ouvert.
+  * Propose une icone de notifications à droite \(désactivée pour le moment\).
   * Ne propose pas d'actions, uniquement des informations et redirections.
   * Affiche à gauche un icone "elipsis"  ouvrant un menu déroulant qui permet de:
     * retourner à la liste des espaces
     * charger un espace auquel on à accès
     * visualiser l'espace courant
     * aller à la page de création d'espace
-  * Affiche un fil d’Ariane permettant de savoir où l'on se trouve sur le site, et où se trouve l'élément en train d'être visionné \(par exemple: la hiérarchie de l'artefact dans la topologie\). 
-    * Le contenu exact du fil d'Ariane sera précisé dans chacune des vues.
+  * Affiche un "**fil d’ariane**" permettant de savoir où l'on se trouve sur le site, et où se trouve l'élément en train d'être visionné \(par exemple: la hiérarchie de l'artefact dans la topologie\)
+    * Le contenu exact du "**fil d'ariane**" sera précisé dans chacune des vues.
     * Chaque élément du fil est cliquable pour accéder au détail de l'élément.
 
 ![toolbar espace de travail sans bus s&#xE9;lectionn&#xE9; \(pas de fil d&apos;ariane\)](.gitbook/assets/barre-menu-workspace%20%281%29.png)
