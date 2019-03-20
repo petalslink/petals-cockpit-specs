@@ -21,13 +21,15 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 **Scénario normal :** Albert veut consulter les informations du bus sélectionné. La description du bus sélectionné ainsi que la liste des conteneurs existants sur ce bus sont visible. Sur chaque conteneur, il voit son **IP** et son **Port**. Albert sélectionne le conteneur sur lequel il veut se rendre pour avoir plus d'informations.
 
-**Scénario alternatif 1 :** Albert veut se rendre sur l'espace de travail depuis le bus sélectionné. Il voit le nom de l'espace ouvert dans le "**fil d'ariane**" et le sélectionne pour se rendre sur sa vue.
-
 ### Maquettes
 
 ![Page d&apos;un bus s&#xE9;lectionn&#xE9;](../../.gitbook/assets/bus.png)
 
 ### Informations complémentaires pour implémentation
+
+{% hint style="danger" %}
+Le champ **description** n'existe pas à l'heure actuelle. \(La derscription est présente dans le frontend mais toujours vide, il n'y a pas de champ correspondant dans la DB\). Faut-il ajouter la feature description aux bus ou supprime-t-on cette description ? 
+{% endhint %}
 
 * La liste des conteneurs est triée par ordre alphabétique.
 
