@@ -44,8 +44,30 @@ L'accès aux différentes vues d'un espace de travail \(topologie, services, api
 * **service hosting** ayant en charge et la supervision technique de l'infrastructure sur laquelle tourne le bus \(et produits petals en général\).
 * **administrateur métier** en charge de superviser une partie fonctionnelle de bus
 * **administrateur workspace** \(chef de projet\)
-* **observateur** aucune permission sur le workspace
 * **administrateur cockpit** administrateur technique de cockpit
 
 
+
+## Association rôle - permission
+
+| perm/role | admin cpt | admin wksp | dev | archi | deploy | hosting | admin métier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **admin globale** | ✔ |  |  |  |  |  |  |
+| **admin wksp** | ✔ | ✔ |  |  |  |  |  |
+| **att/det bus** |  | ✔ |  |  | ✔ |  |  |
+| **att/det cont** |  | ✔ |  |  | ✔ |  |  |
+| **lifecycle art** |  | ✔ | ✔ |  | ✔ | ✔ |  |
+| **deploy/param art** |  | ✔ | ✔ |  | ✔ |  |  |
+| **niveau logs** |  | ✔ | ✔ |  | ✔ |  | ✔ |
+| **edit modèle** |  | ✔ |  | ✔ |  |  |  |
+| **deploy modèle** |  | ✔ |  |  | ✔ |  |  |
+| **admin flux** |  | ✔ |  | ✔ |  |  | ✔ |
+| **traces monit** |  | ✔ | ✔ |  | ✔ |  | ✔ |
+
+## Attribution des rôles
+
+* Tout utilisateur de cockpit peut créer un espace de travail, il devient alors automatiquement **administrateur d'espace de travail** de cet espace. 
+* Tout **administrateur d'espace de travail** peut attribuer des rôles aux utilisateur de l'espace de travail.
+* Le premier rôle d'**administrateur cockpit**  peut être donné à l'aide d'un token \(affiché dans la console de l'application\) lors du lancement du backend \(si aucun **administrateur cockpit** n'existe\). Ou bien inséré directement en DB grâce à une commande.
+* Le dernier administrateur cockpit ne peut pas être supprimé des utilisateurs \(il doit donner le rôle à au moins un autre utilisateur avant\).
 
