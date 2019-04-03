@@ -1,0 +1,51 @@
+---
+description: >-
+  Description des permissions, des rôles qui les contiennent ainsi que des
+  fonctionnalités dont elles restreignent l'accès.
+---
+
+# Rôles et permissions
+
+L'accès aux ressources et actions doivent être restreintes dans Cockpit. Notamment pour limiter les diverses administrations \(techniques et métier\) aux personnes responsables, d'autre part pour protéger les données sensibles \(production par exemple\). Ici sont listés les différentes **permissions** à accorder ainsi que les **rôles** qui groupent ces permissions.
+
+### Précisions préliminaires
+
+Les permissions ne font pas uniquement références aux fonctionnalités existantes ou spécifiés, mais aussi aux fonctionnalités à venir. Ces dernières sont, de fait, mal définies. Il est cependant nécessaire de déjà les lister afin d'en comprendre l'intention. Certains rôles n'existeront pas tant que les fonctionnalités et permissions correspondantes ne seront pas implémentés.
+
+Il faut noter aussi, que **les rôles sont attribués a un couple utilisateur + espace de travail** **mis à part le rôle d’**_**administrateur cockpit**_ **qui est global**. Les rôles contextuels comme _administrateur workspace_  ou _développeur_ sont liés à un utilisateur **et** un espace. Un rôle n'attribue donc des permissions qu'au sein d'un espace de travail. Un même utilisateur pourra donc avoir un même rôle sur différent espaces et ne pas l'avoir sur d'autres.
+
+## Permissions:
+
+### liste des permissions
+
+* **administration cockpit** ajouter supprimer utilisateurs de cockpit. Attribution du rôle administrateur cockpit. Paramètres généraux de l'application.
+* **administration workspace** ajouter supprimer utilisateurs d'un workspace, attribution de rôle liés au workspace, edition de description et short description du workspace.
+* **attacher/détacher un bus** d'un espace de travail
+* **attacher/détacher un conteneur** d'un bus
+* **deploy, undeploy d'un artefact jbi + paramètres** deploy, undeploy un artefact jbi \(Composant, SA, SL\). Modification des paramètres des artefacts \(à chaud ou au déploiement\).
+* **gestion cycle de vie d'un artefact jbi** start, stop, shutdown... un artefact jbi \(Composant, SA, SL\).
+* **modification du niveau de log** d'un artefact ou d'un container.
+* **édition de modèle** _sans considérer la manière dont la fonctionnalité sera intégrée à l'interface:_ création et __modification d'un modèle de déploiement logique dans cockpit.
+* **déployer un modèle** appliquer un modèle logique à une topologie \(déploiement physique sur des conteneurs\).
+* **administration flux** le détail de ce qu'est un flux \(ou service, flow, process\) reste à définir. Cette feature concerne principalement le contrôle et le rejeu de processus métier \(spécifiques à des SE type flowable\)
+* **visualisation/recherche des traces monit:** visualiser dans cockpit les traces monit des conteneurs.
+
+### remarques
+
+L'accès aux différentes vues d'un espace de travail \(topologie, services, api, modèle?, monitoring?\) ne fait pas partie des permissions, il n'est pas limité en soi. Une fois que l'on a accès à l'espace de travail on a accès à ces vues. Les actions ou ressources proposés par ces vues peuvent cependant être limités.
+
+## Rôles
+
+### liste des rôles
+
+* **développeur** en charge de développer les SU/SA
+* **architecte** en charge de définir les topologies
+* **service déploiement** ayant en charge le déploiement des logiciels 'Petals' \(Petals ESB avec SL, BC/SE et SU/SA\)
+* **service hosting** ayant en charge et la supervision technique de l'infrastructure sur laquelle tourne le bus \(et produits petals en général\).
+* **administrateur métier** en charge de superviser une partie fonctionnelle de bus
+* **administrateur workspace** \(chef de projet\)
+* **observateur** aucune permission sur le workspace
+* **administrateur cockpit** administrateur technique de cockpit
+
+
+

@@ -51,6 +51,7 @@
 * [IHM](../ihm.md)
 * [Contraintes Techniques et Implémentation](../contraintes-techniques-et-implementation/README.md)
   * [Contraintes Techniques](../contraintes-techniques-et-implementation/contraintes-techniques.md)
+  * [Rôles et permissions](../contraintes-techniques-et-implementation/roles-et-permissions.md)
   * [Gestion des Erreurs](../contraintes-techniques-et-implementation/gestion-des-erreurs.md)
   * [Gestion des Préférences](../contraintes-techniques-et-implementation/gestion-des-preferences.md)
 
