@@ -25,6 +25,9 @@ Ils sont déclinés en cas d'usage dans la section suivante.
 * Modifier à chaud des paramètres de Petals \(taille des pools dans les composants et les modules du conteneur\)
 * Modifier à chaud le niveau de log d'un composant ou d'un module du conteneur
 * Définir ses préférences
+* Donner le rôle d'administrateur cockpit
+* Ajouter un utilisateur à cockpit
+* Donner un rôle au sein d'un espace de travail
 
 Par artefact Petals, on entend **librairies partagées** \(_shared libraries_\), **composants** \(_service engines_ ou _binding components_\), **service assemblies** et **service-units**.
 
