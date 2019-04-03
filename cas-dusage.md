@@ -334,3 +334,22 @@ L'application doit permettre de définir des préférences pour l'utilisateur. E
 | :--- | :--- | :--- | :--- |
 | Confort d'utilisation pour la pagination. S'adapter à de nouvelles topologies très vite. | Passer facilement d'un environnement à un autre \(topologie de tests, topologie de production\). | Vérifier que Petals, ce n'est pas si compliqué. Une information à fournir et la topologie entière est administrable. |  |
 
+## Donner le rôle d'administrateur cockpit
+
+Un administrateur cockpit doit pouvoir donner le rôle d’administrateur cockpit à un autre utilisateur.
+
+Le premier administrateur est défini à l'installation de cockpit.
+
+## Ajouter un utilisateur à cockpit
+
+Un administrateur cockpit doit pouvoir ajouter un utilisateur à cockpit. C.a.d donner la possibilité à une autre personne de s'identifier et utiliser l'application cockpit. 
+
+Remarque, à l'heure actuelle les moyens d'authentification sont:
+
+* login + mot de passe, la validation est assurée par le backend cockpit
+* LDAP, le backend est connecté à un annuaire LDAP dans lequel l'utilisateur doit être présent conformément à la configuration de l'application. La validation est déléguée au LDAP.
+
+## Donner un rôle au sein d'un espace de travail
+
+Un administrateur d'espace de travail doit pouvoir donner accès à un autre utilisateur à l'espace de travail qu'il administre. Cela se fait au travers d'un ou plusieurs rôles qui sont attribués à l'utilisateur par l’administrateur. Les rôles octroient implicitement des permissions à l'utilisateur d'accéder à certaines fonctionnalités au sein de l'espace de travail.
+
