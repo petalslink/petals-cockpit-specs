@@ -20,20 +20,26 @@ Une permission donne accès a une fonctionnalité jugée sensible sur un espace 
 
 ### liste des permissions
 
-* **administration workspace** ajouter supprimer utilisateurs d'un workspace, attribution de permissions aux utilisateurs du workspace \(effectives sur ce workspace\), edition de description et short description du workspace. Suppression du workspace.
-* **attacher/détacher un bus** d'un espace de travail.
-* **attacher/détacher un conteneur** d'un bus de l'espace de travail.
-* **deploy, undeploy d'un artefact jbi + paramètres** deploy, undeploy un artefact jbi \(Composant, SA, SL\). Modification des paramètres des artefacts \(à chaud ou au déploiement\).
-* **gestion cycle de vie d'un artefact jbi** start, stop, shutdown... un artefact jbi \(Composant, SA, SL\).
-* **modification du niveau de log** d'un artefact ou d'un container.
-* **édition de modèle** _sans considérer la manière dont la fonctionnalité sera intégrée à l'interface:_ création et __modification d'un modèle de déploiement logique dans cockpit.
-* **déployer un modèle** appliquer un modèle logique à une topologie \(déploiement physique sur des conteneurs\).
-* **administration flux** le détail de ce qu'est un flux \(ou service, flow, process\) reste à définir. Cette feature concerne principalement le contrôle et le rejeu de processus métier \(spécifiques à des SE type flowable\)
-* **visualisation/recherche des traces monit:** visualiser dans cockpit les traces monit des conteneurs.
+* **administration workspace** ajouter supprimer utilisateurs d'un workspace, attribution de permissions aux utilisateurs du workspace \(effectives sur ce workspace\), edition de description et short description du workspace. Suppression du workspace. _\(ADMIN\_WORKSPACE\)_
+* **attacher/détacher un bus** d'un espace de travail. _\(ATTACH\_BUS\)_
+* **attacher/détacher un conteneur** d'un bus de l'espace de travail. \(_ATTACH\_CONTAINER_\)
+* **deploy, undeploy d'un artefact jbi + paramètres** deploy, undeploy un artefact jbi \(Composant, SA, SL\). Modification des paramètres des artefacts \(à chaud ou au déploiement\). \(_DEPLOY\_ARTIFACT_\)
+* **gestion cycle de vie d'un artefact jbi** start, stop, shutdown... un artefact jbi \(Composant, SA, SL\). \(_LIFECYCLE\_ARTIFACT\)_
+* **modification du niveau de log** d'un artefact ou d'un container. \(_LOG\_LEVELS_\)
+* **édition de modèle** _sans considérer la manière dont la fonctionnalité sera intégrée à l'interface:_ création et __modification d'un modèle de déploiement logique dans cockpit. \(_EDIT\_MODEL_\)
+* **déployer un modèle** appliquer un modèle logique à une topologie \(déploiement physique sur des conteneurs\). \(_DEPLOY\_MODEL_\)
+* **administration flux** le détail de ce qu'est un flux \(ou service, flow, process\) reste à définir. Cette feature concerne principalement le contrôle et le rejeu de processus métier \(spécifiques à des SE type flowable\) \(_ADMIN\_FLOW_\)
+* **visualisation/recherche des traces monit:** visualiser dans cockpit les traces monit des conteneurs. \(_ADMIN\_MONIT_\)
 
 ### remarques
 
 L'accès aux différentes vues d'un espace de travail \(topologie, services, api, modèle, monitoring\) ne fait pas partie des permissions, il n'est pas limité en soi. Une fois que l'on a accès à l'espace de travail on a accès à ces vues. Les actions ou ressources proposés par ces vues peuvent cependant être limités.
+
+A propos du nommage des permissions:
+
+* Dans le code java: tel que décrite au dessus
+* Dans l'API en json & code frontend: tel que décrites au dessus, en camel case
+* Dans la BDD, tes que décrites au dessus, en minuscule, suffixé de "\_permission"
 
 ## Rôles
 
