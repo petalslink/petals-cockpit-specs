@@ -4,6 +4,8 @@
 La notation suivante est prise :
 {% endhint %}
 
+![](../../.gitbook/assets/composant.png)
+
 * \[ tâche \] fait référence à une autre tâche.
 * Action \(sans crochets\) fait référence à une action utilisateur.
 
