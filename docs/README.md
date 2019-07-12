@@ -48,6 +48,7 @@
     * [Modifier à chaud des propriétés d'un composant Petals](../taches/artefacts-dun-noeud-petals/modifier-a-chaud-des-proprietes-dun-composant-petals.md)
   * [Préférences](../taches/preferences/README.md)
     * [Définir ses préférences](../taches/preferences/definir-ses-preferences.md)
+* [Consoles tierces](../consoles-tierces.md)
 * [IHM](../ihm.md)
 * [Contraintes Techniques et Implémentation](../contraintes-techniques-et-implementation/README.md)
   * [Contraintes Techniques](../contraintes-techniques-et-implementation/contraintes-techniques.md)
