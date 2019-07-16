@@ -25,8 +25,6 @@ Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de 
 
 ![Page d&apos;un bus s&#xE9;lectionn&#xE9;](../../.gitbook/assets/bus.png)
 
-![](../../.gitbook/assets/bus-overview-table.png)
-
 ### Informations complémentaires pour implémentation
 
 {% hint style="danger" %}
