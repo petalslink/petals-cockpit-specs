@@ -19,11 +19,11 @@ Complexité : -
 Dans un scénario, on ne mentionne pas les actions techniques \(pas de clic, de tooltip, etc\).
 {% endhint %}
 
-**Scénario normal :** Albert veut consulter les informations du bus sélectionné. La description du bus sélectionné ainsi que la liste des conteneurs existants sur ce bus sont visible. Sur chaque conteneur, il voit son **IP** et son **Port**. Albert sélectionne le conteneur sur lequel il veut se rendre pour avoir plus d'informations.
+**Scénario normal :** Albert veut consulter les informations du bus sélectionné. La description du bus sélectionné ainsi que la liste des conteneurs existants sur ce bus sont visible. Sur chaque conteneur, il voit son **IP** ,son **Port** et son **État** \(démarrer ou arrêter\). Albert sélectionne le nom du conteneur sur lequel il veut se rendre pour avoir plus d'informations.
 
 ### Maquettes
 
-![Page d&apos;un bus s&#xE9;lectionn&#xE9;](../../.gitbook/assets/bus.png)
+![Page d&apos;une topologie s&#xE9;lectionn&#xE9;e](../../.gitbook/assets/bus-overview-table-2.png)
 
 ### Informations complémentaires pour implémentation
 
