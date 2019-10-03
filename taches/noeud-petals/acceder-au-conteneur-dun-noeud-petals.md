@@ -4,9 +4,7 @@
 La notation suivante est prise :
 {% endhint %}
 
-![](../../.gitbook/assets/container-1-1.png)
-
-![](../../.gitbook/assets/container-2.png)
+![Page d&apos;un container s&#xE9;lectionn&#xE9;](../../.gitbook/assets/container-overview-default.png)
 
 * \[ tâche \] fait référence à une autre tâche.
 * Action \(sans crochets\) fait référence à une action utilisateur.

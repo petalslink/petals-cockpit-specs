@@ -35,7 +35,7 @@
     * [Sélectionner un nom d'end-point](../taches/services/selectionner-un-nom-dend-point.md)
   * [Nœud Petals](../taches/noeud-petals/README.md)
     * [Accéder au conteneur d'un nœud Petals](../taches/noeud-petals/acceder-au-conteneur-dun-noeud-petals.md)
-    * [Accéder aux artéfacts déployés sur un nœud Petals](../taches/noeud-petals/visualiser-les-proprietes-dun-noeud-petals.md)
+    * [Déployer un artéfact sur un nœud Petals](../taches/noeud-petals/visualiser-les-proprietes-dun-noeud-petals.md)
   * [Conteneur d'un nœud Petals](../taches/conteneur-dun-noeud-petals/README.md)
     * [Modifier à chaud les niveaux de log \(conteneur\)](../taches/conteneur-dun-noeud-petals/modifier-a-chaud-les-niveaux-de-log-conteneur.md)
     * [Modifier à chaud des paramètres du conteneur](../taches/conteneur-dun-noeud-petals/modifier-a-chaud-des-parametres-de-petals.md)
