@@ -19,7 +19,7 @@ Postconditions : -
 Contraintes : -  
 Complexité : -
 
-Lorsque Albert effectue sa recherche, s'il ne sélectionne aucun élément de la liste, il voit apparaître dans sa recherche tous les éléments correspondant à sa recherche il peut donc voir les interfaces, les services et les end-points mélangés.
+Lorsque Albert effectue sa recherche, s'il ne sélectionne aucun élément de la liste, il voit apparaître dans sa recherche tous les éléments correspondant à sa recherche il peut donc voir les interfaces, les services et les end-points mélangés. Si la liste est supérieur à 10 éléments, un scroll sera mis en place et l'utilisateur pourra grâce au scroll de sa souris descendre pour visualiser les éléments qui ne sont pas encore visible.
 
 ![](../../.gitbook/assets/service-endpoints-detail-endpoint-selected.png)
 
