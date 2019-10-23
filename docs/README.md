@@ -32,7 +32,7 @@
     * [Visualiser les services d'une topologie](../taches/services/visualiser-les-services-dune-topologie.md)
     * [Recherche et selection d'une interface](../taches/services/selectionner-un-nom-dinterface.md)
     * [Recherche et sélection d'un service](../taches/services/selectionner-un-nom-de-service.md)
-    * [Recherche et sélectionner un nom d'un end-point](../taches/services/selectionner-un-nom-dend-point.md)
+    * [Recherche et sélectionner un end-point](../taches/services/selectionner-un-nom-dend-point.md)
   * [Nœud Petals](../taches/noeud-petals/README.md)
     * [Accéder au conteneur d'un nœud Petals](../taches/noeud-petals/acceder-au-conteneur-dun-noeud-petals.md)
     * [Déployer un artéfact sur un nœud Petals](../taches/noeud-petals/visualiser-les-proprietes-dun-noeud-petals.md)

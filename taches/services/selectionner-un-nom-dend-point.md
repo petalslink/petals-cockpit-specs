@@ -1,6 +1,6 @@
-# Recherche et sélectionner un nom d'un end-point
+# Recherche et sélectionner un end-point
 
-Scénario : Albert souhaite visualiser un endpoint, pour se faire il se rend sur la barre de recherche et effectue sa recherche, un encadré rétractable sur sa droite apparait dans lequel il peut sélectionner les services ainsi que les interfaces qui lui sont liés.
+Scénario : Albert souhaite visualiser un end-point, pour se faire il se rend sur la barre de recherche et effectue sa recherche en séléctionnant les end-points. La liste de tous les end-points apparaît
 
 ![](../../.gitbook/assets/service-endpoints-detail-endpoint-selected%20%283%29.png)
 
@@ -16,4 +16,6 @@ Préconditions : -
 Postconditions : -  
 Contraintes : -  
 Complexité : -
+
+Lorsque Albert sélectionne un end-point, un encadré détail apparaît listant les interfaces et des services qui lui sont rattachés. la liste des end-points présentes sous la barre de recherche reste inchangée.
 

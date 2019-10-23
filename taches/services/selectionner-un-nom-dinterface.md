@@ -1,6 +1,6 @@
 # Recherche et selection d'une interface
 
-Scénario : Albert souhaite effectuer une recherche d'interface, il se rend sur la barre de recherche et effectue sa recherche. En premier lieu il sélectionne le sélect pour ne voir apparaître uniquement les interfaces, ainsi la liste d'interfaces correspondant à sa recherche apparaît.
+Scénario : Albert souhaite effectuer une recherche d'interface, il se rend sur la barre de recherche et effectue sa recherche. En premier lieu il sélectionne le sélect pour ne voir apparaître uniquement que les interfaces, ainsi la liste d'interfaces correspondant à sa recherche apparaît.
 
 ![](../../.gitbook/assets/service-endpoints-detail-interface-selected.png)
 

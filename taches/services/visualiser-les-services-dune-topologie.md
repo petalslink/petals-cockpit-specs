@@ -1,6 +1,6 @@
 # Visualiser les services d'une topologie
 
-Scénario : Albert souhaite visualiser le service d'une topologie, il accède à la vue d'ensemble. Un encadré apparaît listant la totalité des interfaces. Une barre de recherche est mise à sa disposition lui permettant d’effectuer une recherche  \( A savoir une interface, un service ou un end-point \).
+Scénario : Albert souhaite visualiser le service d'une topologie, il accède à la vue d'ensemble. Par défaut, un encadré apparaît listant la totalité des interfaces. Une barre de recherche est mise à sa disposition lui permettant d’effectuer une recherche  \( A savoir une interface, un service ou un end-point \).
 
 
 
@@ -19,7 +19,7 @@ Postconditions : -
 Contraintes : -  
 Complexité : -
 
-Lorsque Albert effectue sa recherche, s'il ne sélectionne aucun élément de la liste, il voit apparaître dans sa recherche tous les éléments correspondant à sa recherche il peut donc voir les interfaces, les services et les end-points mélangés. Si la liste est supérieur à 10 éléments, un scroll sera mis en place et l'utilisateur pourra grâce au scroll de sa souris descendre pour visualiser les éléments qui ne sont pas encore visible.
+Lorsque Albert effectue sa recherche, s'il ne sélectionne aucun élément de la liste, il voit apparaître dans sa recherche tous les éléments correspondant à sa recherche il peut donc voir les interfaces, les services et les end-points mélangés. Si la liste est supérieur à 10 éléments, un scroll apparaîtra et Albert pourra défiler le faire défiler pour trouver l'élément qu'il recherche.
 
 ![](../../.gitbook/assets/service-endpoints-detail-endpoint-selected.png)
 
