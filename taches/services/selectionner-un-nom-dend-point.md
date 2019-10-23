@@ -1,8 +1,10 @@
 # Recherche et sélectionner un end-point
 
-Scénario : Albert souhaite visualiser un end-point, pour se faire il se rend sur la barre de recherche et effectue sa recherche en séléctionnant les end-points. La liste de tous les end-points apparaît
+Scénario : Albert souhaite effectuer une recherche d'un end-point, il se rend sur la barre de recherche et effectue sa recherche. En premier lieu il sélectionne le sélect via un chips autocomplete Material pour ne voir apparaître uniquement que les end-points, ainsi la liste des end-points correspondant à sa recherche apparaît.
 
-![](../../.gitbook/assets/service-endpoints-detail-endpoint-selected%20%283%29.png)
+{% hint style="info" %}
+Maquette ici
+{% endhint %}
 
 {% hint style="info" %}
 La notation suivante est prise :
@@ -18,4 +20,8 @@ Contraintes : -
 Complexité : -
 
 Lorsque Albert sélectionne un end-point, un encadré détail apparaît listant les interfaces et des services qui lui sont rattachés. la liste des end-points présentes sous la barre de recherche reste inchangée.
+
+{% hint style="info" %}
+Maquette ici
+{% endhint %}
 

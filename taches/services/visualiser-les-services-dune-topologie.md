@@ -2,13 +2,15 @@
 
 Scénario : Albert souhaite visualiser le service d'une topologie, il accède à la vue d'ensemble. Par défaut, un encadré apparaît listant la totalité des interfaces. Une barre de recherche est mise à sa disposition lui permettant d’effectuer une recherche  \( A savoir une interface, un service ou un end-point \).
 
+{% hint style="info" %}
+Maquette ici
+{% endhint %}
+
 
 
 {% hint style="info" %}
 La notation suivante est prise :
 {% endhint %}
-
-![](../../.gitbook/assets/service-endpoints-detail-endpoint-selected%20%282%29.png)
 
 * \[ tâche \] fait référence à une autre tâche.
 * Action \(sans crochets\) fait référence à une action utilisateur.
@@ -21,12 +23,16 @@ Complexité : -
 
 Lorsque Albert effectue sa recherche, s'il ne sélectionne aucun élément de la liste, il voit apparaître dans sa recherche tous les éléments correspondant à sa recherche il peut donc voir les interfaces, les services et les end-points mélangés. Si la liste est supérieur à 10 éléments, un scroll apparaîtra et Albert pourra défiler le faire défiler pour trouver l'élément qu'il recherche.
 
-![](../../.gitbook/assets/service-endpoints-detail-endpoint-selected.png)
+{% hint style="info" %}
+Maquette ici
+{% endhint %}
 
   
 Si Albert vient à sélectionner un élément il voit apparaître un  encadré rétractable sur la droite montrant le détail de sa recherche ainsi que les liens auquel l'élément sélectionné est rattaché. Cet encadré peut s'enlever via la croix ou l'icon info ⓘ. 
 
-![](../../.gitbook/assets/service-endpoints-detail-endpoint-selected%20%285%29.png)
+{% hint style="info" %}
+Maquette ici
+{% endhint %}
 
 
 
