@@ -1,4 +1,4 @@
-# Recherche et sélectionner un end-point
+# Recherche et sélection d'un end-point
 
 Scénario : Albert souhaite effectuer une recherche d'un end-point, il se rend sur la barre de recherche et effectue sa recherche. En premier lieu il sélectionne le sélect via un chips autocomplete Material pour ne voir apparaître uniquement que les end-points, ainsi la liste des end-points correspondant à sa recherche apparaît.
 
