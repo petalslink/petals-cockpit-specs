@@ -1,4 +1,15 @@
-# Filtrer avec le sort by
+# Sort by element
 
-Scénario : Albert souhaite connaitre les interfaces rattachés à un service. Par défaut, la liste déroulante affiche les services liés aux interfaces. Grâce au sort By présent à droite de la barre de recherche, Albert pourra modifier l'ordre de la liste déroulante et visualiser plus facilement quels interfaces sont rattachés à tel service. La liste déroulante proposera uniquement la liste des interfaces rattachés aux services recherchés. Pour visualiser les endpoints, Albert n'aura qu'à sélectionner une interface ce qui fera apparaître la liste des endpoints qui lui sont associés.
+L'utilisation du "sort by" permet de modifier l'ordre d'affichage de l'arbre du service endpoint.   
+Exemple :   
+"sort by" positionné sur interface, réorganise l'arbre de façon à afficher tous les services liés à une interface.   
+"sort by" positionné sur service, réorganise l'arbre de façon à afficher toute les interfaces liés à un service. 
+
+{% hint style="info" %}
+Maquette montrant le sort By positionné sur interface
+{% endhint %}
+
+{% hint style="info" %}
+Maquette montrant le sort By positionné sur service
+{% endhint %}
 

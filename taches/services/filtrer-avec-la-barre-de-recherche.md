@@ -1,4 +1,26 @@
 # Filtrer avec la barre de recherche et le système de tag
 
-Scénario: Lorsqu'Albert souhaite visualiser un élément de la liste, il peut le rechercher via la barre de recherche. Celle-ci va filtrer les résultats correspondants aux termes rentré dans celle-ci. Par défaut , tous les éléments sont présents. Un système de tag sera alors disponible  pour améliorer le filtre. Ainsi Albert peut rechercher son éléments présents dans les interfaces, les services ou les endpoints, ainsi que par name space. 
+Les résultats de l'arbre de service endpoint sont triés en fonction de ce que l'utilisateur inscrit dans la barre de recherche. Les éléments\( interfaces, services, endpoints\) de l'arbre se mettent à jour avec les résultats qui correspondent à la recherche.  
+Dans une prochaine feature, un système de tag sera intégré à la barre de recherche, permettant de filtrer les résultats grâce à un "select" se présentant sous la forme d'une liste déroulante.  
+L'arbre se met à jour en affichant uniquement les éléments correspondant au choix du "select" ainsi qu'au texte inscrit dans la barre de recherche. Le choix du sélect se retrouve dans la barre de recherche sous forme de tag. Plusieurs tags peuvent être ajouter à la barre de recherche.  
+Un bouton "refresh" sera présent près de la barre de recherche au cas où une erreur se produit.
+
+  
+_**liste des tags présents dans le sélect**_ **:**  
+- Interface  
+- Service  
+- Endpoint  
+- Namespace  
+- Localpart  
+- Bus  
+- Composant  
+- Conteneur
+
+{% hint style="info" %}
+Maquette montrant le début d'une recherche
+{% endhint %}
+
+{% hint style="info" %}
+Maquette montrant le résultat d'une recherche.
+{% endhint %}
 

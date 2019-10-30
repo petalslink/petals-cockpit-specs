@@ -1,14 +1,28 @@
 # Visualiser la liste et utilisation du tri alphabétique
 
-Scénario : Albert souhaite visualiser le service d'une topologie, il accède à la vue d'ensemble. Par défaut, la liste déroulante affiche toutes les interfaces. Une barre de recherche est mise à sa disposition lui permettant d’effectuer une recherche  \( A savoir une interface, un service ou un end-point \).  
-Une option présente à droite de la barre de recherche permet à Albert de trier les résultats de sa recherche par odre alphabétique.  
-Afin d'avoir la meilleur visibilité sur les éléments de la liste déroulante, celle-ci ne possède aucune limite de taille, Albert est alors en "mode recherche d'un élément". Lors de la sélection d'un endPoint, un bouton présent dans l'encadré détail apparaît, au clic de celui-ci, Albert passe en "mode visualisation d'un élément". La liste déroulante se réduit laissant apparaître le graphe en dessous, ce qui permet d'agrandir de nouveau la liste déroulante.  
-Afin de repasser en "mode recherche d'un élément", un icon d'agrandissement sera présent sous la dernière ligne de la liste déroulante et centré.  
-Deuxième solution pour repasser en "mode recherche d'un élément" : Sélection d'un nouvel Item. Lorsqu'Albert sélectionne un nouvel item et qu'il se trouve en "mode visualisation d'un élément", la liste déroulante s'agrandit. Albert repasse en "mode recherche d'un élément"
+La liste déroulante des services endpoints comporte l'ensemble des interfaces, services et endpoints présents dans les bus d'un workspace.   
+Elle se décline sous la forme d'une liste déroulante à la manière d'un arbre hiérarchisé, montrant les éléments et les relations qu'ils possèdent les uns aux autres. A la sélection de la ligne d'un élément, celle-ci s'étend pour laisser apparaître les éléments qui lui sont liés.  
+Par défaut, seul les interfaces sont listés. L'ordre d'affichage des éléments de l'arbre se décline de la manière suivante :   
+La liste des services est présent sous l'interface lui étant associé.  
+La liste des endpoints est présent sous le service lui étant associé.  
+cet ordre peut se modifier, voir la section [sort by element](filtrer-avec-sort-by.md).  
+Il est possible d'organiser les résultats de l'arbre par ordre alphabétique ou par ordre alphabétique inversé.
+
+
 
 {% hint style="info" %}
-Maquette ici
+Maquette avec arbre service endpoints et trié par ordre alphabétique
 {% endhint %}
+
+{% hint style="info" %}
+Maquette avec arbre service endpoints et trié par ordre alphabétique inversé.
+{% endhint %}
+
+
+
+
+
+
 
 
 
