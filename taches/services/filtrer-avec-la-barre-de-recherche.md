@@ -31,6 +31,10 @@ _**liste des tags présents dans le select**_ **:**
 - Composant  
 - Conteneur
 
+
+
+![Select pr&#xE9;sent ici sur la barre de recherche](../../.gitbook/assets/service-endpoints-detail-endpoint-selected-select.png)
+
 {% hint style="info" %}
 Maquette montrant le début d'une recherche
 {% endhint %}
