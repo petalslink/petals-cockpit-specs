@@ -1,6 +1,6 @@
 # Visualiser les services et les interfaces
 
-Pour visualiser une interface ou un service, il faut sélectionner l'élément sur l'arbre de service endpoints. Un encadré "related element" se met à jour montrant les relations qu'il existe avec l'élément sélectionné.  
+Pour visualiser une interface ou un service, il faut sélectionner l'élément sur l'arbre de service endpoints. Un encadré "related element" se met à jour montrant les relations qu'il existe avec l'élément sélectionné sous forme de lien cliquable. Lors du clic sur l'un de ces liens, l'utilisateur "navigue" dans l'arbre de service endpoint et se positionne sur l'élément sélectionné.  
 Un service dépend de une ou plusieurs interfaces.  
 Une interface est lié à un ou plusieurs services.  
 La liste des endpoints liés à une interface ou un services est également présente.
