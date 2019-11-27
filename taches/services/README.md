@@ -6,7 +6,7 @@ Voici quelques exemples de scénarios et des extraits de maquette pour vous fami
 * [Visualiser les services et les interfaces](visualiser-le-detail-dun-service-interface-endpoint.md)
 * [Visualiser le détail d'un endpoint](visualiser-le-detail-dun-endpoint.md)
 * [Filtrer avec la barre de recherche et le système de tag](filtrer-avec-la-barre-de-recherche.md)
-* [Sort by element](filtrer-avec-sort-by.md)
+* [change tree level](filtrer-avec-sort-by.md)
 
 
 
