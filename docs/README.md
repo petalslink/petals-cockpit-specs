@@ -33,7 +33,7 @@
     * [Visualiser les services et les interfaces](../taches/services/visualiser-le-detail-dun-service-interface-endpoint.md)
     * [Visualiser le détail d'un endpoint](../taches/services/visualiser-le-detail-dun-endpoint.md)
     * [Filtrer avec la barre de recherche et le système de tag](../taches/services/filtrer-avec-la-barre-de-recherche.md)
-    * [change tree level](../taches/services/filtrer-avec-sort-by.md)
+    * [change tree level](../taches/services/change-tree-level.md)
   * [Nœud Petals](../taches/noeud-petals/README.md)
     * [Accéder au conteneur d'un nœud Petals](../taches/noeud-petals/acceder-au-conteneur-dun-noeud-petals.md)
     * [Déployer un artéfact sur un nœud Petals](../taches/noeud-petals/visualiser-les-proprietes-dun-noeud-petals.md)

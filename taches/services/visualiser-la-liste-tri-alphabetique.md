@@ -5,7 +5,7 @@ Elle se décline sous la forme d'une liste déroulante à la manière d'un arbre
 Par défaut, seul les interfaces sont listés. L'ordre d'affichage des éléments de l'arbre se décline de la manière suivante :   
 La liste des services est présent sous l'interface lui étant associé.  
 La liste des endpoints est présent sous le service lui étant associé.  
-cet ordre peut se modifier, voir la section [sort by element](filtrer-avec-sort-by.md).  
+cet ordre peut se modifier, voir la section [sort by element](change-tree-level.md).  
 Il est possible d'organiser les résultats de l'arbre par ordre alphabétique ou par ordre alphabétique inversé.  
 Un bouton "refresh" servant à rafraîchir la liste des services ou à la demander en cas d'erreur, sera également présent. 
 
