@@ -9,7 +9,7 @@ cet ordre peut se modifier, voir la section [sort by element](change-tree-level.
 Il est possible d'organiser les résultats de l'arbre par ordre alphabétique ou par ordre alphabétique inversé.  
 Un bouton "refresh" servant à rafraîchir la liste des services ou à la demander en cas d'erreur, sera également présent. 
 
-![Vue de l&apos;abre de service endpoints.](../../.gitbook/assets/service-endpoints-detail-endpoint-selected-v3.png)
+![](../../.gitbook/assets/selectioninterface%20%282%29.png)
 
 
 
