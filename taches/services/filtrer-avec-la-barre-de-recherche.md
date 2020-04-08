@@ -1,6 +1,6 @@
 # Système de recherche avancée par tag
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 **Feature optionnelle. N'est pas nécessaire pour le refactor.**
 {% endhint %}
 
