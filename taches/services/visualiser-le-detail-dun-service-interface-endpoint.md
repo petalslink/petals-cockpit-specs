@@ -1,22 +1,21 @@
 # Visualiser les services et les interfaces
 
-Sélectionner une interface ou un service dans l'arbre affiche \(à droite\) la page de détail respectivement de l'interface et du service. Dans les deux cas cette vue se compose de deux parties: **related elements** et **endpoints detail** 
+Pour visualiser une interface ou un service, il faut sélectionner l'élément sur l'arbre de service endpoints. Un encadré "related element" se met à jour montrant les relations qu'il existe avec l'élément sélectionné sous forme de lien cliquable.   
+Lors de la sélection d'une interface, la liste de tous les services lui étant associés apparaît das l'encadré related element, et la vue détails endpoint se met également à jour montrant tous les endpoints associés à cet interface et ses services qui lui sont associés.  
+Lors de la sélection d'un service, la liste de toute les interfaces lui étant associés apparaît das l'encadré related element, et la vue détails endpoint se met également à jour montrant tous les endpoints associés à ce service et ses interfaces qui lui sont associés.
 
-![Sections de la vue de d&#xE9;tail des interfaces et services.](https://lh4.googleusercontent.com/6j0q4_09jVgPSpH96p_oMdaSqQXakdX8D2mTpCA18ytsxB_04vm4-89Xesxvu036WtBYZd9BrOX31ZrY9TzaJsCOucIf9EGf09g2vd3oO6J8NkL7Vat9NZyF4AznVHCxQbG1v5ku)
+Lors du clic sur l'un de ces liens, l'utilisateur "navigue" dans l'arbre de service endpoint et se positionne sur l'élément sélectionné.  
+Un service dépend de une ou plusieurs interfaces.  
+Une interface est lié à un ou plusieurs services.  
+La liste des endpoints liés à une interface ou un services est également présente.
 
-**Related element** change en fonction de la vue.
+![Vue lorsque l&apos;on s&#xE9;lectionne une interface.](../../.gitbook/assets/selectioninterface.png)
 
-* Detail d'interface: on affiche les services associés
-* Detail de service: on affiche les interfaces associés
+{% hint style="info" %}
+maquette Service ou interface sélectionné avec vue "related element".
+{% endhint %}
 
-Dans les deux cas les elements sont des liens amenant à la vue de détail du service ou de l'interface. \(liens de navigation\)
 
-**Endpoints detail** est se comporte de la même manière pour les deux vues. On va lister tous les endpoints liés à l'interface ou service dont on visionne le  détail.
 
-Chaque endpoint sera présenté avec des informations associés \(qui doivent tous être des liens de navigation\):
 
-* Nom du endpoint
-* Nom de son composant
-* Conteneur sur lequel il tourne
-* Bus sur lequel le conteneur tourne
 
