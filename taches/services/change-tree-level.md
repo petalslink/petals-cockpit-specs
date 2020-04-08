@@ -1,12 +1,14 @@
-# change tree level
+# Changer le niveau de l'arbre
 
-Par défaut, l'arbre permet de voir la liste des interfaces.  
-Une fois l'interface sélectionner, il apparaît la liste des services qui lui sont associés.  
-Lorsqu'on sélectionne un service, il apparaît le endpoint associé à ce service et cet interface.
+Par défaut, l'arbre permet de voir la liste des interfaces. Changer de niveau permet de descendre d'un niveau la hiérarchie de l'arbre afin de n'afficher plus que services et endpoints, ou bien juste les endpoints. Il y aura donc 3 modes d'affichage
 
-L'utilisation du change tree level va permettre de descendre d'un niveau la hiérarchie de l'arbre. ainsi la liste des interfaces se trouvant au niveau 0 disparaît, laissant place à la liste des services. Il y aura une réorganisation de l'arbre car on souhaite afficher tous les endpoints liés aux services contrairement aux endpoints associés à une interface et un service.
+1. interfaces &gt; services &gt; endpoints
+2. services &gt; endpoints
+3. endpoints
 
-le deuxième niveau du change tree level, va faire disparaître les services au niveau 0 et laisser place à la liste des endpoints. A la sélection de celui-ci, l'encadré détail laissera apparaître dans l'encadré related élément, l'interface et le service lui étant lié. Dans l'encadré détail endpoint, apparaîtra le bus, conteneur et composant lui étant associé.
+Pour le mode 2 \(services &gt; endpoints\) il faudra faire attention à réorganiser de l'arbre car on souhaite afficher tous les endpoints liés a chaque services \(et non plus au couple interface+service\). Etant donné qu'un service peut être lié à plusieurs interfaces, un même service peut apparaître plusieurs fois dans l'arbre dans le mode 1, dans le mode 2 ce n'est plus possible.
+
+Le visionnage du détail lorsque l'on clique sur un élément reste le même dans tous les modes.
 
 ![Premier niveau, s&#xE9;lection Interface](../../.gitbook/assets/selectioninterface%20%282%29.png)
 
