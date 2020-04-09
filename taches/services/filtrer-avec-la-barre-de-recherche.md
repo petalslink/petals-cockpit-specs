@@ -66,14 +66,14 @@ Par la suite quand on écrit "l'élément contient X" il sera toujours sous ente
 {% endhint %}
 
 **Liste des tags acceptés:**  
-- **Interface**: l'interface associée à l'élément contient X.  \(Ou l'élément lui même, si c'est une interface\)  
-- **Service**: le service associée à l'élément contient X.  \(Ou l'élément lui même, si c'est un service\)  
-- **Endpoint**: le endpoint associé à l'élément contient X.  \(Ou l'élément lui même, si c'est un endpoint\)  
-- **Namespace**: le namespace de l’élément contient X.  
+- **Interface**: l'interface associée à l'élément contient X.  \(Ou l'élément lui, même si c'est une interface\)  
+- **Service**: le service associée à l'élément contient X.  \(Ou l'élément lui, même si c'est un service\)  
+- **Endpoint**: le endpoint associé à l'élément contient X.  \(Ou l'élément lui, même si c'est un endpoint\)  
+- **Namespace**: le namespace de l'élement contient X.  
 - **Localpart**: la localpart de l'élément contient X.  
-- **Bus**: le bus sur lequel tourne un endpoint associé à l'élément contient X. \(L'élément peut être le endpoint en question\)  
-- **Composant**: le composant sur associé au endpoint associé à l'élément contient X. \(L'élément peut être le endpoint en question\)  
-- **Conteneur**: le conteneur sur lequel tourne un endpoint associé à l'élément contient X. \(L'élément peut être le endpoint en question\)
+- **Bus**: le bus sur lequel tourne un endpoint associé à l'élément contient X. \(Ou l'élément peut être le endpoint en question\)  
+- **Composant**: le composant sur associé au endpoint associé à l'élément contient X. \(Ou l'élément peut être le endpoint en question\)  
+- **Conteneur**: le conteneur sur lequel tourne un endpoint associé à l'élément contient X. \(Ou l'élément peut être le endpoint en question\)
 
 Il faut faciliter l'utilisations des tags pour le client. Pour cela nous allons proposer plusieurs moyens d'ajouter un tag à la barre de recherche avec la syntaxe correcte. Ces différents moyens devront se terminer en plaçant le prompteur au bon endroit pour commencer à renseigner le string recherché dans le tag. Plusieurs moyens de les pré-saisir: 
 
