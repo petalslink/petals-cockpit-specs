@@ -24,7 +24,7 @@ Ci dessous sont les features à venir. Elle ne sont pas nécessaires dans un pre
 * Ajouter des boutons **fold all** et **unfold all** qui permettent de plier ou déplier **tous** les elements de l'arbre simultanément**.**
 * Permettre de changer la largeur du panel de gauche contenant l'arbre **\(A DISCUTER\)** Les namespaces pouvant être très long, cela pourrait éviter des problème de visionnage au client.
 * Réduire le niveau de l'arbre, précisé dans [la section dédiée](change-tree-level.md)
-* Afin de réduire la taille des éléments de l'arbre, on peut afficher le namespace des interfaces avant celles ci, au même niveau de l'arbre; ce qui formera une sorte de section sur laquelle le namespace s'applique. Cela permettra de retirer le namespace de chaque élément si celui ci est le même \(on pourra aussi le retirer des services en dessous\). Il faudra cependant faire attention à bien conserver le namespace de chaque service si il est différent de celui de la section. Maquette ci dessous.
+* Afin de réduire la taille des éléments de l'arbre, on peut afficher le namespace des interfaces avant celles ci, au même niveau de l'arbre; ce qui formera une sorte de section sur laquelle le namespace s'applique. Cela permettra de retirer le namespace de chaque élément si celui ci est le même \(on pourra aussi le retirer des services en dessous\). Il faudra cependant faire attention à bien conserver le namespace de chaque service si il est différent de celui de la section. Il n'y a pas de vision définitive pour cette feature il faudra faire des essais, la maquette ci dessous est à titre d'exemple:
 
-![Arbre avec sections de namespace](../../.gitbook/assets/selectioninterface%20%283%29.png)
+![Arbre avec sections de namespace \(pour inspiration\)](../../.gitbook/assets/selectioninterface%20%283%29.png)
 
